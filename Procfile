@@ -1,2 +1,2 @@
-web: python teacher_attendance_proj/manage.py runserver 0.0.0.0:$PORT
+web: python driver.py 0.0.0.0:$PORT
 
