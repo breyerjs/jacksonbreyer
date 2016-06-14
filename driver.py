@@ -23,14 +23,6 @@ def interests():
 def contact():
     return render_template('contact.html')
 
-# @app.route("/delivered_url")
-# def deliver_url_page():
-#     url = request.args.get('url')
-#     if not url.startswith('http'):
-#         url = "http://" + url
-#     wikifier = Wikify(url)
-#     wikifier.wikifier_main()
-#     return wikifier.soup.prettify()
 
 if __name__ == "__main__":
     app.run()

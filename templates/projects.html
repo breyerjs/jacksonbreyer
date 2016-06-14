@@ -24,9 +24,9 @@
                     <li>automatic author identification (<u><a href="https://github.com/breyerjs/Automatic_Author_Identification">github repo</a></u>)</li>
                         <p>Can we determine who wrote a novel, just by analyzing its writing style?</p>
 
-                        <p> That's the question I set out to answer when I began this NLP project. I used a corpus of novels from <a href="http://www.gutenberg.org/">Gutenberg.org</a>, some of which I tagged with their author, some of which I left untagged. I featurized all of the novels and used a Maximum Entropy Classifier to identify the authors of the untagged novels. Essentially, each tagged author became a class, and I sorted the untagged novels into one of these classes.</p>
+                        <p>That's the question I set out to answer when I began this NLP project. I used a corpus of novels from <a href="http://www.gutenberg.org/">Gutenberg.org</a>, some of which I tagged with their author, some of which I left untagged. I featurized all of the novels and used a Maximum Entropy Classifier to identify the authors of the untagged novels. Essentially, each author became a class, and I sorted the untagged novels into one of these classes.</p>
 
-                        <p>What makes our writing unique? The trick was choosing the correct features. To speed up the runtime, I explored several possibilities using the bag-of-words model. To my surprise, the best feature was the relative frequency of the most frequent words (MFW).</p>
+                        <p>So what makes an author's writing unique? The trick was choosing the correct features. To speed up the runtime, I explored several possibilities using the bag-of-words model. To my surprise, the best feature by far was the relative frequency of the most frequent words.</p>
 
                         <p>Take an example where my very most frequent word (MFW_1) is 'the', appearing 30% of the time. My second most frequent word (MFW_2) is 'of', appearing 10% of the time. Then we can say that their relative frequency is 0.3 - 0.1 = 0.2. So our feature MFW_1-MFW_2 would be set to 0.2. These relationships were very powerful when generalized to an author's 5 most frequent words.</p>
 
@@ -35,20 +35,14 @@
 
                     <li>smil'd (<u><a href="https://github.com/breyerjs/Smild/tree/master/OneGoodThing/app">github repo</a></u>)</li>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>The concept of keeping a <u><a href="https://en.wikipedia.org/wiki/Gratitude_journal">gratitude journal</a></u> has been around for a while, but I wanted to approach the idea from a different angle. I ended up making Smil'd, which is an Android app that lets users record happy moments from their day. Then later, if the user is feeling down, they can review their list in a few formats.</p>
+
+                        <p>I collaborated with a designer to make it as friendly-looking as possible. We had a lot of fun with the project. </p>
+
+                        <p><img id="smild_pic" src="{{ url_for('static', filename='img/smild.png') }}"></p>
 
                     <li>wikification for the whole web</li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Wouldn't it be cool if every site you visited had Wikipedia's links to related pages? The idea behing this project was to make a simple web app th</p>
 
                     </ul>
             </div>
