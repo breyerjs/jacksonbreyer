@@ -11,7 +11,11 @@
 #smild_pic{
     width: 200px;
     margin-bottom: 40px;
+}
 
+#wikification_pic{
+    width: 400px;
+    text-align: center;
 }
 
 a{
