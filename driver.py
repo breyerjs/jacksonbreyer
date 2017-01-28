@@ -1,28 +1,11 @@
-from flask import Flask, render_template
-app = Flask(__name__)
+import json
+import os
+import time
+from flask import Flask, Response, request
+
+app = Flask(__name__, static_url_path='', static_folder='static')
+app.add_url_rule('/', 'root', lambda: app.send_static_file('index.html'))
 
 
-@app.route("/")
-def index():
-    return render_template('index.html')
-
-
-@app.route("/projects")
-def projects():
-    return render_template('projects.html')
-
-@app.route("/about")
-def about():
-    return render_template('about.html')
-
-@app.route("/interests")
-def interests():
-    return render_template('interests.html')
-
-@app.route("/external")
-def contact():
-    return render_template('contact.html')
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run()
