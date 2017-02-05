@@ -17,6 +17,8 @@
 #wikification_pic{
     width: 400px;
     text-align: center;
+    display: block;
+    margin: auto;
 }
 
 a{

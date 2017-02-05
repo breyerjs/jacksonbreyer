@@ -15,7 +15,7 @@ export default class Layout extends React.Component {
         <Grid>
           <Row>
             <div className="app-container">
-              <Col md={3} >
+              <Col md={2} >
                 <Sidebar />
               </Col>
               <Col md={7}>

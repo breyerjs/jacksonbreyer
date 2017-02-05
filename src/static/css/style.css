@@ -4,6 +4,7 @@
 }
 
 .app-content{
+  padding-left: 30px;
 }
 
 .sidebar ul{
@@ -99,4 +100,24 @@ p{
 .not-found h2 {
   font-size: 2em;
   font-weight: bold;
+}
+
+#autoauthor_pic{
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#smild_pic{
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+#wikification_pic{
+    width: 400px;
+}
+
+#wikification_figure{
+    text-align: center;
+    display: block;
+    margin: auto;
 }
