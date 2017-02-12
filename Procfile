@@ -1,1 +1,1 @@
-web: gunicorn driver:app --log-file=-
+web: node index.js

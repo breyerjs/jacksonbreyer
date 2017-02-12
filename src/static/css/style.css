@@ -1,0 +1,123 @@
+
+.app-container{
+  margin-top: 50px;
+}
+
+.app-content{
+  padding-left: 30px;
+}
+
+.sidebar ul{
+  padding:0; 
+  margin:0;
+}
+
+.sidebar li {
+  padding-top: 5px;
+  font-weight: normal;
+}
+
+.sidebar-link {
+  color: black;
+  text-decoration: none;
+}
+.sidebar-link:hover{
+  color: black;
+  text-decoration: underline;
+}
+.sidebar-link:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.title-text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-list li{
+  padding-top: 5px;
+  font-weight: normal;
+}
+.contact-list a {
+  color: black;
+  text-decoration: none;
+}
+.contact-list a:hover{
+  color: black;
+  text-decoration: underline;
+}
+.contact-list a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.normal-link{
+  color: black;
+  text-decoration: underline;  
+}
+.normal-link:hover{
+  color: black;
+  text-decoration: underline;  
+}
+.normal-link:visited{
+  color: black;
+  text-decoration: underline;  
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 0 0 5 0px;
+    font-weight: bold;
+}
+
+p{
+    margin-left: 20px;
+}
+
+.not-found {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.not-found h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.not-found h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#autoauthor_pic{
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#smild_pic{
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+#wikification_pic{
+    width: 400px;
+}
+
+#wikification_figure{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
