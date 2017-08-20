@@ -1,5 +1,7 @@
 // to compile use NODE_ENV=production node_modules/.bin/webpack -p
 // to run NODE_ENV=production node_modules/.bin/babel-node --presets 'react,es2015' src/server.js
+// to build and run:
+//  NODE_ENV=production node_modules/.bin/webpack -p && NODE_ENV=production node_modules/.bin/babel-node --presets 'react,es2015' src/server.js
 // to nest routes <Route path="athlete/:id" component={AthletePage}/>
 
 "use strict";

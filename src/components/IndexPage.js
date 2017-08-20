@@ -7,7 +7,7 @@ export default class IndexPage extends React.Component {
     return (
       <div className="home">
         <h2 className='title-text'>hello</h2>
-        {"Welcome to my site! Feel free to take a look around. If you want to contact me, just click the link to the left. If you're curious about how I made the site, then you might find "}
+        {"Welcome to my site! Feel free to take a look around. If you want to contact me, just click the link above. If you're curious about how I made the site, then you might find "}
         <a href="https://github.com/breyerjs/jacksonbreyer" className="normal-link">this github repo</a>
         {" to be helpful."}
       </div>
