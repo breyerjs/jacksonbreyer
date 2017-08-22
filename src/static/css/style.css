@@ -1,4 +1,36 @@
 .global-style{
+  background-color: #2E3440;
+  color: #D8DEE9;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: #8FBCBB;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #8FBCBB;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #8FBCBB;
+  text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 0 0 5 0px;
+    color: #D8DEE9;
+    font-weight: bold;
+}
+
+p{
+    margin-left: 20px;
 }
 
 .app-container{
@@ -14,6 +46,10 @@
   margin-top: 10px;
 }
 
+.navigation a{
+  color: #D8DEE9;
+}
+
 .nav-right{
   float: right;
   margin-top: 33px;
@@ -21,19 +57,6 @@
 
 .navigation h3{
   display: inline-block;
-}
-
-.navigation a {
-  color: black;
-  text-decoration: none;
-}
-.navigation a:hover{
-  color: black;
-  text-decoration: underline;
-}
-.navigation a:visited{
-  color: black;
-  text-decoration: none;
 }
 
 .title-text {
@@ -45,67 +68,11 @@
   padding-top: 5px;
   font-weight: normal;
 }
-.contact-list a {
-  color: black;
-  text-decoration: none;
-}
-.contact-list a:hover{
-  color: black;
-  text-decoration: underline;
-}
-.contact-list a:visited{
-  color: black;
-  text-decoration: none;
-}
 
 .logo {
   width: 75px;
   height: 75px;
   margin-bottom: 20px;
-}
-
-.normal-link{
-  color: black;
-  text-decoration: underline;
-}
-.normal-link:hover{
-  color: black;
-  text-decoration: underline;
-}
-.normal-link:visited{
-  color: black;
-  text-decoration: underline;
-}
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    padding: 0 0 5 0px;
-    font-weight: bold;
-}
-
-p{
-    margin-left: 20px;
-}
-
-.not-found {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 2em;
-  text-align: center;
-  width: 100%;
-}
-
-.not-found h1 {
-  font-size: 3em;
-  font-weight: bold;
-}
-
-.not-found h2 {
-  font-size: 2em;
-  font-weight: bold;
 }
 
 #autoauthor_pic{
