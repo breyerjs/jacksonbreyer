@@ -7,12 +7,11 @@ export default class InterestsPage extends React.Component {
             <h2 className='title-text'>interests</h2>
             <ul>
                 <li>linguistics</li>
-                    <p>I studied Linguistics as an undergraduate English major, and have been happily diagramming sentences since the fifth grade.</p>
-
+                    <p>I studied Linguistics as an undergraduate English major, and have been happily diagramming sentences since the fifth grade. I'm also currently learning the Filipino national language, Tagalog.</p>
                 <li>natural language processing</li>
                     <p>The intersection of Linguistics and Computer Science! Everything I love, bundled into a single package. I think there's a lot of unexplored potential to leverage existing NLP technology.</p>
                 <li>hiking and climbing</li>
-                    <p>It's great to get outdoors and do some hiking. Living in San Francisco gives me access to some amazing parks like Yosemite.</p>
+                    <p>It's great to get outdoors. Living in San Francisco gives me access to some amazing parks like Yosemite. Recently I've gotten into bouldering and route climbing.</p>
                 <li>martial arts</li>
                     <p>I've practiced Taekwondo in various styles for 17 years. I have a black belt from the World Taekwondo Federation and worked as an instructor all through high school.</p>
                 <li>fantasy reading + writing</li>

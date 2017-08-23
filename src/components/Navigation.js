@@ -21,8 +21,6 @@ export default class Navigation extends React.Component {
             <Link to={"/projects"}>projects</Link>
               <span className="nav-separation" />
             <Link to={"/interests"}>interests</Link>
-              <span className="nav-separation" />
-            <Link to={"/contact"}>social + contact</Link>
           </span>
           <br />
         </div>

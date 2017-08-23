@@ -64,15 +64,35 @@ p{
   margin-bottom: 40px;
 }
 
-.contact-list li{
-  padding-top: 5px;
-  font-weight: normal;
+.contact-items{
+  margin-top: 75px;
+  text-align: center;
+  align-items: center;
+}
+
+.contact-items-inner{
+  margin: auto;
+}
+
+.dark-toast{
+  background: #3B4252;
+  color: #fff;
+}
+
+.dark-toast > .toastify__close{
+  color: #fff;
 }
 
 .logo {
   width: 75px;
   height: 75px;
   margin-bottom: 20px;
+}
+
+.contact-image{
+  width: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 #autoauthor_pic{
