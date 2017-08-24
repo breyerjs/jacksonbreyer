@@ -6,7 +6,7 @@ export default class ProjectsPage extends React.Component {
             <div>
                 <h2 className='title-text'>projects</h2>
                 <ul>
-                    <li>automatic author identification <a href="https://github.com/breyerjs/Automatic_Author_Identification" className="normal-link">(github repo)</a></li>
+                    <li>automatic author identification <a href="https://github.com/breyerjs/Automatic_Author_Identification">(github repo)</a></li>
                         <p>Can we determine who wrote a novel, just by analyzing its writing style?</p>
 
                         <p>That's the question I set out to answer with this NLP project. I used a corpus of novels from <a href="http://www.gutenberg.org/" className="normal-link">Gutenberg.org</a>, some of which I tagged with their author, some of which I left untagged. I featurized all of the novels and used a Maximum Entropy Classifier to identify the authors of the untagged novels. Essentially, each author became a class, and I sorted the untagged novels into one of these classes.</p>
@@ -18,13 +18,20 @@ export default class ProjectsPage extends React.Component {
                         <p>Here's a printout of the results:</p>
                         <p><img id="autoauthor_pic" src="/img/autoauthor.png" /></p>
 
-                    <li>smil'd <a href="https://github.com/breyerjs/Smild/tree/master/OneGoodThing/app" className="normal-link">(github repo)</a></li>
+                    <li>smil'd <a href="https://github.com/breyerjs/Smild/tree/master/OneGoodThing/app">(github repo)</a></li>
 
-                        <p>The concept of keeping a <a href="https://en.wikipedia.org/wiki/Gratitude_journal" className="normal-link">gratitude journal</a> has been around for a while, but I wanted to approach the idea from a different angle. I ended up making Smil'd, which is an Android app that lets users record happy moments from their day. Then later, if the user is feeling down, they can review their list in a few formats.</p>
+                        <p>The concept of keeping a <a href="https://en.wikipedia.org/wiki/Gratitude_journal">gratitude journal</a> has been around for a while, but I wanted to approach the idea from a different angle. I ended up making Smil'd, which is an Android app that lets users record happy moments from their day. Then later, if the user is feeling down, they can review their list in a few formats.</p>
 
                         <p>I collaborated with a designer to make it as friendly-looking as possible. We had a lot of fun with the project. </p>
 
                         <p><img id="smild_pic" src="/img/smild.png" /></p>
+
+                    <li>typemeasure <a href="https://www.typemeasure.me">(live link)</a> <a href="https://github.com/breyerjs/typequick">(github repo)</a></li>
+                        <p>I learned to touch-type by taking typing tests over and over. But I didn't find that any of the tests available online were very modern in their design, and the passages they had me type were boring. So I made Typemeasure.</p>
+
+                        <p>Since a typing test should make the user more comfortable with the keyboard, Typemeasure is totally keyboard driven. I also find that staring at a white screen for a long period is unpleasant, so I gave it a dark theme to save everyone's eyes. And finally, I chose interesting passages so it wasn't boring to take the tests.</p>
+                        <p><img id="typemeasure_pic" src="/img/typemeasure.png" /></p>
+
 
                     <li>wikification for the whole web</li>
                         <p>Wouldn't it be cool if every site you visited had Wikipedia's links to related pages? The idea behind this project was to make a simple web app where a user enters a url and gets back the corresponding page with Wikipedia's blue relations links added.<br />
