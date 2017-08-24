@@ -1,7 +1,7 @@
 .global-style{
   background-color: #2E3440;
   color: #D8DEE9;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 a {
@@ -107,6 +107,10 @@ p{
 
 #wikification_pic{
     width: 400px;
+}
+
+#typemeasure_pic{
+  width: 400px;
 }
 
 #wikification_figure{
