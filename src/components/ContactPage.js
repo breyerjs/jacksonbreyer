@@ -4,7 +4,7 @@ export default class ContactPage extends React.Component {
   render() {
     return (
         <div>
-            <h2 className='title-text'>contact + social</h2>
+            <h2 className='title-text'>social + contact</h2>
             <ul className="contact-list">
                 <li><a href="https://angel.co/jackson-breyer" className="normal-link">angel list =></a></li>
                 <li><a href="https://www.github.com/breyerjs" className="normal-link">github =></a><br /></li>
