@@ -7,7 +7,7 @@ export default class InterestsPage extends React.Component {
             <h2 className='title-text'>interests</h2>
             <ul>
                 <li>linguistics</li>
-                    <p>I studied Linguistics as an undergraduate English major, and have been happily diagramming sentences since the fifth grade. I'm also currently learning the Filipino national language, Tagalog.</p>
+                    <p>I studied Linguistics as an undergraduate English major, and have been happily diagramming sentences since the fifth grade. I'm also currently learning the Filipino language.</p>
                 <li>natural language processing</li>
                     <p>The intersection of Linguistics and Computer Science! Everything I love, bundled into a single package. I think there's a lot of unexplored potential to leverage existing NLP technology.</p>
                 <li>hiking and climbing</li>
