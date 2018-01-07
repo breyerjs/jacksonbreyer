@@ -1,61 +1,78 @@
 body {
-  background-color: #2E3440;
-  color: #D8DEE9;
-  font-family: 'Inconsolata', monospace;
+  /* background-color: #2E3440;
+  color: #D8DEE9; */
+  color: #black;
+  background-color: #d9d9d9;
+  font-family: 'Nunito', monospace;
 }
 
 a {
-  color: #8FBCBB;
+  color: #458588;
   text-decoration: none;
 }
 
-a:hover{
-  color: #8FBCBB;
+a:hover {
+  color: #458588;
   text-decoration: underline;
 }
 
-a:visited{
-  color: #8FBCBB;
+a:visited {
+  color: #458588;
   text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-li{
+li {
     padding: 0 0 5 0px;
-    color: #D8DEE9;
+    color: #black;
     font-weight: bold;
+    font-size: 18px;
 }
 
-p{
-    margin-left: 20px;
+p {
+    padding-left: 20px;
 }
 
-.app-container{
-  margin-top: 25px;
+.app-container {
+  padding-top: 25px;
 }
 
-.nav-separation{
+/* Overrides a bootstrap class */
+.container {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.navigation {
+  padding-top: 10px;
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #0b3c5d;
+  color: #d9d9d9;
+}
+
+.nav-separation {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.navigation{
-  margin-top: 10px;
+.navigation a {
+  color: #d9d9d9;
 }
 
-.navigation a{
-  color: #D8DEE9;
-}
-
-.nav-right{
+.nav-right {
   float: right;
   margin-top: 33px;
 }
 
-.navigation h3{
+.navigation h3 {
   display: inline-block;
 }
 
@@ -64,17 +81,17 @@ p{
   margin-bottom: 40px;
 }
 
-.contact-items{
+.contact-items {
   margin-top: 75px;
   text-align: center;
   align-items: center;
 }
 
-.contact-items-inner{
+.contact-items-inner {
   margin: auto;
 }
 
-.dark-toast{
+.dark-toast {
   background: #3B4252;
   color: #fff;
 }
@@ -89,31 +106,31 @@ p{
   margin-bottom: 20px;
 }
 
-.contact-image{
+.contact-image {
   width: 40px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
-#autoauthor_pic{
+#autoauthor_pic {
     width: 500px;
     margin-bottom: 40px;
 }
 
-#smild_pic{
+#smild_pic {
     width: 200px;
     margin-bottom: 40px;
 }
 
-#wikification_pic{
+#wikification_pic {
     width: 400px;
 }
 
-#typemeasure_pic{
+#typemeasure_pic {
   width: 400px;
 }
 
-#wikification_figure{
+#wikification_figure {
     text-align: center;
     display: block;
     margin: auto;

@@ -12,10 +12,12 @@ export default class Layout extends React.Component {
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css" />
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+
 
         <link rel="stylesheet" href="/css/style.css" />
 
-        <Grid>
+        <Grid className="nomargin">
           <Navigation />
           <Row>
             <div>
