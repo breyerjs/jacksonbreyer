@@ -5,15 +5,20 @@ export default class Navigation extends React.Component {
   render() {
     return (
         <div className="navigation">
-          <span className="nav-left">
-            <Link to="/">
-                <img className="logo" src="/img/avatar.png"/>
-            </Link>
-              <span className="nav-separation" />
-            <h3>jackson breyer</h3>
-          </span>
 
-          <span className="nav-right">
+          <div className="nav-left">
+            <Link to="/">
+              <img className="logo" src="/img/avatar.png"/>
+            </Link>
+          <span className="nav-separation" />
+
+          <div className="nav-left">
+            <h2>jackson breyer</h2>
+          </div>
+
+          </div>
+
+          <div className="nav-right">
             <Link to={"/"}> / </Link>
               <span className="nav-separation" />
             <Link to={"/about"}>about</Link>
@@ -21,8 +26,7 @@ export default class Navigation extends React.Component {
             <Link to={"/projects"}>projects</Link>
               <span className="nav-separation" />
             <Link to={"/interests"}>interests</Link>
-          </span>
-          <br />
+          </div>
         </div>
     );
   }
