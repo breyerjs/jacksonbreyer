@@ -100,12 +100,8 @@ p {
 }
 
 .dark-toast {
-  background: #3B4252;
-  color: #fff;
-}
-
-.dark-toast > .toastify__close{
-  color: #fff;
+  background: #d9d9d9;
+  color: black;
 }
 
 .logo {

@@ -25,13 +25,13 @@ export default class IndexPage extends React.Component {
         <div className="contact-items">
           <div className="contact-items-inner">
             <a href="https://www.github.com/breyerjs" target="_blank">
-                <img className="contact-image" src="/img/GitHub_light.png"/>
+                <img className="contact-image" src="/img/GitHub.png"/>
             </a>
             <Link to="" className="email-copy" onClick={this.popToast} data-clipboard-text="breyer.js@gmail.com">
                 <img className="contact-image" src="/img/email_img.png"/>
             </Link>
             <a href="https://www.linkedin.com/in/breyerjs/" target="_blank">
-                <img className="contact-image" src="/img/linkedin_light.png"/>
+                <img className="contact-image" src="/img/linkedin.png"/>
             </a>
           </div>
         </div>
