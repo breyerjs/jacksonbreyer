@@ -7,13 +7,13 @@ export default class AboutPage extends React.Component {
             <h2 className='title-text'>about</h2>
             <ul>
                 <li>who's jackson breyer?</li>
-                    <p>I had an English degree and was working as a paralegal when I realized that I wanted something else. So I taught myself to program at nights. After a year and a half of learning on my own, I was hooked and wanted a more robust education in Computer Science. So I went back for a Master's degree at Brandeis University.</p>
+                    <p>I had an English degree and was working as a paralegal when I realized that I wanted something different. So I taught myself to program at nights. After a year and a half of learning, I was hooked and wanted to focus more deeply on Computer Science. So I went back for a Master's degree at Brandeis University.</p>
 
-                    <p>Brandeis was awesome. They let me take core classes in CS as well as explore topics I found interesting, like Natural Language Processing.</p>
+                    <p>Brandeis was awesome. I took core classes in CS and delved into topics I found interesting, like Natural Language Processing.</p>
 
                     <p>Between years at Brandeis, I interned at Ginger.io in San Francisco. There I wrote backend code in Django and learned to move quickly. I loved my first exposure to writing production code.</p>
 
-                    <p>Since graduating from Brandeis, I've been working for Practice Fusion, a company that builds an electronic health record system. I've worked all over the stack, on a small but dedicated team. </p>
+                    <p>Since graduating from Brandeis, I've worked for Practice Fusion, a company that builds an electronic health record system. I've worked on a small team, charged with finding creative solutions all over the stack. </p>
                 <li>languages</li>
                     <p>Python, JavaScript, Ruby, C#, Java, SQL, HTML, CSS</p>
                 <li>frameworks</li>
