@@ -10,11 +10,11 @@ export default class Navigation extends React.Component {
             <Link to="/">
               <img className="logo" src="/img/avatar.png"/>
             </Link>
-          <span className="nav-separation" />
+            <span className="nav-separation" />
 
-          <div className="nav-left">
-            <h2>jackson breyer</h2>
-          </div>
+            <div className="nav-left">
+              <h2>jackson breyer</h2>
+            </div>
 
           </div>
 
