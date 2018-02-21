@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  entry: [path.join(__dirname, 'src', 'app-client.js'), 'react-toastify/dist/ReactToastify.min.css'],
+  entry: [path.join(__dirname, 'src', 'app-client.js')],
   output: {
     path: path.join(__dirname, 'src', 'static', 'js'),
     filename: 'bundle.js'
