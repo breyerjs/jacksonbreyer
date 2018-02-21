@@ -1,4 +1,3 @@
-"use strict";
 import React from 'react';
 import ProjectContainer from './ProjectContainer';
 import AutomaticAuthor from './projects/AutomaticAuthor';
@@ -17,7 +16,4 @@ export default class ProjectsPage extends React.Component {
             </div>
     );
   }
-
-
-
 }

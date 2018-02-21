@@ -29,7 +29,7 @@
     "react-clipboard.js": "^1.1.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.6.1",
-    "react-toastify": "^3.2.1"
+    "react-toastify": "^3.3.4"
   },
   "devDependencies": {
     "babel-loader": "^6.2.10",

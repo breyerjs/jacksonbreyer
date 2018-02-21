@@ -1,8 +1,6 @@
-"use strict";
 import React from 'react';
 import Navigation from './Navigation';
 import { Link } from 'react-router';
-import { Grid, Row, Col} from 'react-bootstrap';
 
 export default class Layout extends React.Component {
   render() {
@@ -17,18 +15,10 @@ export default class Layout extends React.Component {
 
         <link rel="stylesheet" href="/css/style.css" />
 
-        <Grid className="nomargin">
+        <div className="nomargin">
           <Navigation />
-          <Row>
-            <div>
-              <Col md={2} ></Col>
-              <Col md={7}>
-                <div className="app-content">{this.props.children}</div>
-              </Col>
-              <Col md={2} />
-            </div>
-          </Row>
-        </Grid>
+          <div className="app-content">{this.props.children}</div>
+        </div>
       </div>
     );
   }

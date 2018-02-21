@@ -45,6 +45,12 @@ p {
   width: 100%;
 }
 
+.app-content {
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 40px;
+}
+
 .project-container {
     padding-left: 40px;
     margin-bottom: 20px;
