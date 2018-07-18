@@ -13,7 +13,9 @@ export default class AboutPage extends React.Component {
 
                     <p>Between years at Brandeis, I interned at Ginger.io in San Francisco. There I wrote backend code in Django and learned to move quickly. I loved my first exposure to writing production code.</p>
 
-                    <p>Since graduating from Brandeis, I've worked for Practice Fusion, a company that builds an electronic health record system. I've worked on a small team, charged with finding creative solutions all over the stack. </p>
+                    <p>Next I worked for Practice Fusion, a company that builds an electronic health record system. I worked on a small team charged with finding creative solutions all over the stack. </p>
+
+                    <p>Currently I'm a full-stack developer on Yelp's Search Experience team. I've enjoyed the challenges of engineering for a broad audience and tackling problems that impact millions of people. </p>
                 <li>languages</li>
                     <p>Python, JavaScript, Ruby, C#, Java, SQL, HTML, CSS</p>
                 <li>frameworks</li>
