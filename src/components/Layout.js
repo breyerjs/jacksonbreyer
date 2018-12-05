@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Navigation';
+import Navigation from './Navigation/Navigation';
 import { Link } from 'react-router';
 
 export default class Layout extends React.Component {
@@ -8,9 +8,8 @@ export default class Layout extends React.Component {
       <div>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" />
+
 
 
         <link rel="stylesheet" href="/css/style.css" />
