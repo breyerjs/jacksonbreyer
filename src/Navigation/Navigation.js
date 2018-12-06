@@ -7,11 +7,13 @@ import classNames from 'classnames';
 export default class Navigation extends React.Component {
     generateNavCell(text, firstCell){
         const classes = classNames(
-            firstCell? styles.leftNavCell : styles.notLeftNavCell,
-            this.props.currentPage === text ? styles.currentPage: null
+            // Apply the gridlines
+            firstCell ? styles.leftNavCell : styles.notLeftNavCell,
+            // Highlight the current page
+            this.props.currentPage === text ? styles.currentPage : null
         );
         return(
-            // todo: consume toporbottom
+            // This onclick handles the navigation events
             <div className={classes} onClick={() => this.props.changePage(text)}>
                 <span className={styles.navText}>{text}</span>
             </div>
