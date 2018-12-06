@@ -1,0 +1,19 @@
+/* Global styles */
+html, body {
+    font-family: 'EB Garamond', serif;
+    height: 100%;
+    margin: 0;
+    background: #efefef
+}
+
+section {
+    height: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}

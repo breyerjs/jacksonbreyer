@@ -1,0 +1,14 @@
+.layoutContainer {
+    display: flex;
+    height: 100%;
+}
+
+.navContainer {
+    height: 100%;
+}
+
+.contentContainer {
+    height: 100%;
+    padding: 150px;
+    font-size: 18px;
+}

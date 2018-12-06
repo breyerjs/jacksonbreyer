@@ -1,0 +1,53 @@
+.navContainer {
+    display: inline-flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.leftNavCell {
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border-style: solid;
+    border-width: 1px;
+
+    font-size: 24px;
+    display: flex;
+    cursor: pointer;
+}
+
+.notLeftNavCell {
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+
+    font-size: 24px;
+    display: flex;
+    cursor: pointer;
+}
+
+.leftNavCell:hover, .notLeftNavCell:hover {
+    background: #f9e0e0;   
+}
+
+.currentPage {
+    background:#d6d6d6;
+}
+
+.navText {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    align-self: center;
+
+    /* Prevent text selection */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
