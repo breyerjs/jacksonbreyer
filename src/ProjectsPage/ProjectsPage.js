@@ -5,6 +5,7 @@ const ProjectsPage = () => {
     return(
         <div>
             <Header subheader={"likes to keep busy"} />
+            Coming soon!
         </div>
     );
 };

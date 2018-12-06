@@ -16,9 +16,13 @@ const AboutPage = () => {
 
             <div className={styles.separator} />
 
-            <p>Some quick facts:</p>
+            <p>Quick facts:</p>
             
             <p>Here are <a href="https://github.com/breyerjs">my github</a> and <a href="https://www.linkedin.com/in/breyerjs"> linkedin</a> profiles.</p>
+            
+            <p>Here are some alphabetically-ordered languages and frameworks I've used:<br />C#, CSS, Django, Ember, HTML, Java, JavaScript, Postgres, Python, React, SQL</p>
+
+            <p>Here are some alphabetically-ordered topics I have experience with:<br />Databases, Full-Stack Web Development, Machine Learning, Natural Language Processing</p>
         </div>
     );
 };

@@ -3,7 +3,9 @@ html, body {
     font-family: 'EB Garamond', serif;
     height: 100%;
     margin: 0;
-    background: #efefef
+    background: #efefef;
+    /* Prevent scrolling */
+    overflow: hidden; 
 }
 
 section {
