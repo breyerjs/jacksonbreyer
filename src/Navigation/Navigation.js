@@ -12,7 +12,7 @@ export default class Navigation extends React.Component {
             // Highlight the current page
             this.props.currentPage === text ? styles.currentPage : null
         );
-        return(
+        return (
             // This onclick handles the navigation events
             <div className={classes} onClick={() => this.props.changePage(text)}>
                 <span className={styles.navText}>{text}</span>
