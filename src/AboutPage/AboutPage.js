@@ -8,7 +8,7 @@ const AboutPage = () => {
             <Header subheader={"is a software engineer"} />
             <p>I am a full-stack developer on the Search Experience team at Yelp.</p>
 
-            <p>"Full-stack" means that I write all sorts of code—frontend, backend, user-facing features, infrastructure, and so forth. Each of my days can be quite unique.</p>
+            <p>"Full-stack" means that I write all sorts of code—frontend, backend, user-facing features, infrastructure, and so forth. Each day I get to tackle new and unique challenges.</p>
 
             <p>"Search Experience" means that I'm responsible for what a user experiences when they search on Yelp.</p>
 
