@@ -12,3 +12,7 @@
     padding: 75px;
     font-size: 18px;
 }
+
+.tooSmall {
+    padding: 10px;
+}
