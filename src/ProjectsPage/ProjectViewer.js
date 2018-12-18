@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header'
-import styles from './ProjectViewer.css';
+import styles from './ProjectViewer.scss';
 
 /**
  * props:
@@ -26,3 +26,4 @@ export default class ProjectViewer extends React.Component {
         );
     }
 };
+

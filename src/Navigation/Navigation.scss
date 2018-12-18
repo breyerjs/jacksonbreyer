@@ -4,11 +4,11 @@
     height: 100%;
 }
 
-.leftNavCell {
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+.navCell {
+    width: 28px;
+    // top right bottom left
+    padding: 0px 10px 15px 10px;
+
     border-style: solid;
     border-width: 1px;
     border-left: none;
@@ -18,31 +18,16 @@
     font-size: 24px;
     display: flex;
     cursor: pointer;
+
+    &:hover{
+        background: #f9e0e0;  
+    }
+
+    &.currentPage {
+        background:#d6d6d6;
+    }
 }
 
-.notLeftNavCell {
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-
-    font-size: 24px;
-    display: flex;
-    cursor: pointer;
-}
-
-.leftNavCell:hover, .notLeftNavCell:hover {
-    background: #f9e0e0;   
-}
-
-.currentPage {
-    background:#d6d6d6;
-}
 
 .navText {
     writing-mode: vertical-lr;

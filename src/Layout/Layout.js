@@ -6,7 +6,7 @@ import AboutPage from '../AboutPage/AboutPage';
 import ProjectsPage from '../ProjectsPage/ProjectsPage';
 import InterestsPage from '../InterestsPage/InterestsPage';
 
-import styles from './Layout.css';
+import styles from './Layout.scss';
 
 export default class Layout extends React.Component{
     constructor(props) {
@@ -23,17 +23,16 @@ export default class Layout extends React.Component{
     
     /**
      * Checks if the screen is big enough. Sets state appropriately.
+     * If the screen is too small, we show the error-haiku
      */
     checkSizeRequirement(){
-        if (screenIsBigEnough()){
-            this.setState({bigEnough: true});
-            return;
-        }
-        this.setState({bigEnough: false})        
+        this.setState({bigEnough: screenIsBigEnough()});
     }
 
     componentDidMount(){
+        // Check the initial screen size
         this.checkSizeRequirement();
+        // Add the event listener for checking screen size as it's resized
         window.addEventListener("resize", this.checkSizeRequirement.bind(this));
     }
 
@@ -45,7 +44,7 @@ export default class Layout extends React.Component{
                     {"cannot render my website."}<br />
                     {"Instead: a haiku."}<br />
                     {"—Jackson"}<br /><br />
-                    {"p.s. Please open this on a bigger screen ;)"}
+                    {"p.s. Please open this in a bigger window :)"}
                 </div>
             );
         }
@@ -63,6 +62,9 @@ export default class Layout extends React.Component{
     };
 }
 
+/**
+ * Names of the pages we can show
+ */
 export const PageNames = {
     ABOUT: 'About',
     HISTORY: 'History',
@@ -70,7 +72,12 @@ export const PageNames = {
     INTERESTS: 'Interests'
 }
 
-// ie., which content should we show?
+/**
+ * 
+ * @param {string} page 
+ * Answers the question: what content should we show in the viewer.
+ * Page will be one of PageNames, above
+ */
 const buildContent = (page) => {
     switch (page){
         case PageNames.ABOUT:
@@ -86,6 +93,10 @@ const buildContent = (page) => {
     }
 }
 
+/**
+ * Gut check heuristic as to whether the screen is big enough.
+ * There's no science here. I just picked numbers that seemed big enough.
+ */
 const screenIsBigEnough = () => {
     var w = window,
     d = document,

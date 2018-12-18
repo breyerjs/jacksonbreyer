@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './Navigation.css';
+import styles from './Navigation.scss';
 
 import { PageNames } from '../Layout/Layout';
 import classNames from 'classnames';
 
 export default class Navigation extends React.Component {
-    generateNavCell(text, firstCell){
+    generateNavCell(text){
         const classes = classNames(
             // Apply the gridlines
-            firstCell ? styles.leftNavCell : styles.notLeftNavCell,
+            styles.navCell,
             // Highlight the current page
             this.props.currentPage === text ? styles.currentPage : null
         );
@@ -22,10 +22,10 @@ export default class Navigation extends React.Component {
     render(){
         return (
             <div className={styles.navContainer}>
-                {this.generateNavCell(PageNames.ABOUT, true)}
-                {this.generateNavCell(PageNames.HISTORY, false)}
-                {this.generateNavCell(PageNames.PROJECTS, false)}
-                {this.generateNavCell(PageNames.INTERESTS, false)}
+                {this.generateNavCell(PageNames.ABOUT)}
+                {this.generateNavCell(PageNames.HISTORY)}
+                {this.generateNavCell(PageNames.PROJECTS)}
+                {this.generateNavCell(PageNames.INTERESTS)}
             </div>
 
         );

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
-import styles from './AboutPage.css';
+import styles from './AboutPage.scss';
 
 const AboutPage = () => {
     return(
@@ -12,13 +12,13 @@ const AboutPage = () => {
 
             <p>"Search Experience" means that I'm responsible for what a user experiences when they search on Yelp.</p>
 
-            <p>You probably know what Yelp means. But if you don't (or even if you do), feel free to <a href="http://www.yelp.com" target="_blank">take a look</a>.</p>
+            <p>You probably know what Yelp means. But, even if you do, feel free to <a href="http://www.yelp.com" target="_blank">take a look</a>.</p>
 
             <div className={styles.separator} />
 
             <p>Quick facts:</p>
             
-            <p>Here are my <a href="https://github.com/breyerjs" target="_blank">github</a> and <a href="https://www.linkedin.com/in/breyerjs" target="_blank">linkedin</a> profiles.</p>
+            <p>Here are my <a href="https://github.com/breyerjs" target="_blank">Github</a> and <a href="https://www.linkedin.com/in/breyerjs" target="_blank">Linkedin</a> profiles. Here's <a href="https://github.com/breyerjs/jacksonbreyer/tree/master/src" target="_blank">the repo</a> for this site.</p>
             
             <p>Here are some languages and frameworks I've used:<br />C#, CSS, Django, Ember, HTML, Java, JavaScript, Postgres, Python, React, SQL</p>
 
