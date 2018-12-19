@@ -22,6 +22,12 @@ export default class ProjectViewer extends React.Component {
                 <div className={styles.text}>
                     {this.props.text}
                 </div>
+                <div className={styles.checkOut}>
+                    {(this.props.githubLink || this.props.liveLink) && 'Check this out '}
+                    {this.props.githubLink && <a href={this.props.githubLink} target="_blank">on Github</a>}
+                    {this.props.githubLink && this.props.liveLink && ' & '}
+                    {this.props.liveLink && <a href={this.props.liveLink} target="_blank">live on the web</a>}
+                </div>
             </div>
         );
     }
