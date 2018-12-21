@@ -27,9 +27,9 @@ const allProjects = [
         liveLink={'https://www.typemeasure.me/'}
         text={(
             <div>
-                <p>I learned to touch-type by taking typing tests over and over. But I didn't find that any of the tests available online were very modern in their design, and the passages they had me type were boring. And I also wanted to learn React. So I made Typemeasure.</p>
+                <p>I learned to touch-type by taking typing tests over and over. But I didn't find that any of the tests available online were very modern in their design, and the passages they had me type were boring. And I also wanted to learn React. So I made TypeMeasure.</p>
 
-                <p>Since a typing test should make the user more comfortable with the keyboard, Typemeasure is totally keyboard driven. I also find that staring at a white screen for a long period is unpleasant, so I gave it a dark theme to save everyone's eyes. And finally, I chose interesting passages so it wasn't boring to take the tests.</p>
+                <p>Since a typing test should make the user more comfortable with the keyboard, TypeMeasure is totally keyboard driven. I also find that staring at a white screen for a long period is unpleasant, so I gave it a dark theme to save everyone's eyes. And finally, I chose interesting passages so it wasn't boring to take the tests.</p>
             </div>
         )}
     />),
@@ -42,7 +42,7 @@ const allProjects = [
             <div>
                 <p>When I was in grad school, my girlfriend and I were doing long-distance from Boston to DC. On a whim, I suggested we try Slack rather than texting, since it was cross platform and I was curious about it. Little did I know it would become the default way we'd 'text' over the next few years, even after we moved back in together.</p>
 
-                <p>{"One of the nice things about programming is that you're able to take agency over systems around you. So I built our slackbot, Ned. He provides a little 'CLI' over some Python modules that make it more fun to chat on slack. You can tell him to (╯°□°）╯︵ ┻━┻, <3 someone, find recipes for dinner, and he even keeps track of karma (like jackson++ or jackson--)."}</p>
+                <p>{"One of the nice things about programming is that you're able to take agency over systems around you. So I built our slackbot, Ned. He provides a little 'CLI' over some Python modules that make it more fun to chat on Slack. You can tell him to (╯°□°）╯︵ ┻━┻, <3 someone, find recipes for dinner, and he even keeps track of karma (like jackson++ or jackson--)."}</p>
 
                 <p>He's hosted on a Raspberry Pi in my living room—I had a lot of fun setting that up. Though when the power goes out I need to ssh into the pi and kick him off again.</p>
             </div>
