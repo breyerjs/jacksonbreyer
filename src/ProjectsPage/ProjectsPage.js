@@ -65,7 +65,7 @@ export default class ProjectsPage extends React.Component {
     handleOnManiculeClick(indexChange) {
         const newIndex = (this.state.projIndex + indexChange) === -1 ? 
             // we have cycled around backwards
-            allProjects.length -1 : 
+            allProjects.length - 1 : 
             // cycle back to beginning if we reach the end, otherwise increment
             (this.state.projIndex + indexChange) % allProjects.length;
 
