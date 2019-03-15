@@ -102,5 +102,5 @@ const screenIsBigEnough = () => {
     g = d.getElementsByTagName('body')[0],
     x = w.innerWidth || e.clientWidth || g.clientWidth,
     y = w.innerHeight|| e.clientHeight|| g.clientHeight;
-    return x + y > 1550 && x > 600 && y > 600;
+    return x + y > 800 && x > 400 && y > 400;
 }
