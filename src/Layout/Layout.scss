@@ -3,14 +3,9 @@
     height: 100%;
 }
 
-.navContainer {
-    height: 100%;
-}
-
 .contentContainer {
-    height: 100%;
     padding: 75px;
-    font-size: 18px;
+    overflow-y: scroll;
 }
 
 .tooSmall {

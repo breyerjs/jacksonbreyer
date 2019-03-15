@@ -51,9 +51,7 @@ export default class Layout extends React.Component{
 
         return (
             <div className={styles.layoutContainer}>
-                <div className={styles.navContainer}>
-                    <Navigation changePage={this.changeContent.bind(this)} currentPage={this.state.page} />
-                </div>
+                <Navigation changePage={this.changeContent.bind(this)} currentPage={this.state.page} />
                 <div className={styles.contentContainer}>
                     {buildContent(this.state.page)}
                 </div>

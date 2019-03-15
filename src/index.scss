@@ -1,11 +1,19 @@
 /* Global styles */
 html, body {
-    font-family: 'EB Garamond', serif;
+    // font-family: 'EB Garamond', serif;
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+
+    // Gotta make that font look good
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
     height: 100%;
     margin: 0;
     background: #efefef;
     /* Prevent scrolling */
-    overflow: hidden; 
+    // overflow: hidden; 
 }
 
 section {
