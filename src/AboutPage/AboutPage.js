@@ -6,23 +6,17 @@ const AboutPage = () => {
     return(
         <div>
             <Header subheader={"is a software engineer"} />
-            <p>I am a full-stack developer on the Search Experience team at Yelp.</p>
+            <div className={styles.syllables}>[Jack·son Brey·er] · proper noun </div>
 
-            <p>"Full-stack" means that I write all sorts of code—frontend, backend, user-facing features, infrastructure, and so forth. Each day I get to tackle new and unique challenges.</p>
+            <div className={styles.definition}>A full-stack ¹ developer on the Search Experience ² team at Yelp ³</div>
 
-            <p>"Search Experience" means that I'm responsible for what a user experiences when they search on Yelp.</p>
+            <div className={styles.footnote}>¹ Full-stack: writes all sorts of code. Frontend, backend, user-facing features, infrastructure, etc.</div>
 
-            <p>You probably know what Yelp means. But, even if you do, feel free to <a href="http://www.yelp.com" target="_blank">take a look</a>.</p>
+            <div className={styles.footnote}>² Search Experience: what a user experiences when they perform a search.</div> 
 
-            <div className={styles.separator} />
+            <div className={styles.footnote}>³ Well, you probably know this one. But hey, <a href="http://www.yelp.com" target="_blank">take a look</a>.</div>
 
-            <p>Quick facts:</p>
-            
-            <p>Here are my <a href="https://github.com/breyerjs" target="_blank">Github</a> and <a href="https://www.linkedin.com/in/breyerjs" target="_blank">Linkedin</a> profiles. Here's <a href="https://github.com/breyerjs/jacksonbreyer/tree/master/src" target="_blank">the repo</a> for this site.</p>
-            
-            <p>Here are some languages and frameworks I've used:<br />C#, CSS, Django, Ember, HTML, Java, JavaScript, Postgres, Python, React, SQL</p>
-
-            <p>Here are some topics I have experience with:<br />Databases, Full-Stack Web Development, Machine Learning, Natural Language Processing</p>
+            {/* <div className={styles.separator} /> */}
         </div>
     );
 };

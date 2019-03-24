@@ -1,12 +1,21 @@
 .separator {
-    border-style: solid;
-    border-width: 1px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-
+    border-bottom: 1px dotted black;
     padding-top: 10px;
     padding-bottom: 10px;
 
     width: 300px;
+}
+
+.syllables {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.definition{
+    padding-bottom: 20px;
+}
+
+.footnote {
+    padding-left: 30px;
+    padding-bottom: 7px;
 }

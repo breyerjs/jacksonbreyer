@@ -4,7 +4,7 @@ import Navigation from '../Navigation/Navigation';
 import HistoryPage from '../HistoryPage/HistoryPage';
 import AboutPage from '../AboutPage/AboutPage';
 import ProjectsPage from '../ProjectsPage/ProjectsPage';
-import InterestsPage from '../InterestsPage/InterestsPage';
+import TechnicalPage from '../TechnicalPage/TechnicalPage';
 
 import styles from './Layout.scss';
 
@@ -67,7 +67,7 @@ export const PageNames = {
     ABOUT: 'About',
     HISTORY: 'History',
     PROJECTS: 'Projects',
-    INTERESTS: 'Interests'
+    TECHNICAL: 'Technical'
 }
 
 /**
@@ -84,8 +84,8 @@ const buildContent = (page) => {
             return <HistoryPage />;
         case PageNames.PROJECTS:
             return <ProjectsPage />;
-        case PageNames.INTERESTS:
-            return <InterestsPage />;
+        case PageNames.TECHNICAL:
+            return <TechnicalPage />;
         default:
             return <AboutPage />;
     }

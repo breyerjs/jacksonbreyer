@@ -23,9 +23,9 @@ export default class Navigation extends React.Component {
         return (
             <div className={styles.navContainer}>
                 {this.generateNavCell(PageNames.ABOUT)}
+                {this.generateNavCell(PageNames.TECHNICAL)}
                 {this.generateNavCell(PageNames.HISTORY)}
                 {this.generateNavCell(PageNames.PROJECTS)}
-                {this.generateNavCell(PageNames.INTERESTS)}
             </div>
 
         );
