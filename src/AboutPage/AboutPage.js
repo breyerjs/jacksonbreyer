@@ -8,7 +8,7 @@ const AboutPage = () => {
             <Header subheader={"is a software engineer"} />
             <div className={styles.syllables}>[ Jack·son Brey·er ] · proper noun </div>
 
-            <div className={styles.definition}>A full-stack ¹ developer on the Search Experience ² team at Yelp ³</div>
+            <div className={styles.definition}>A full-stack ¹ developer on the Search Experience ² team at Yelp. ³</div>
 
             <div className={styles.footnote}>¹ Full-stack: writes all sorts of code. Frontend, backend, user-facing features, infrastructure, etc.</div>
 
