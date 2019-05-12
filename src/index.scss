@@ -1,19 +1,16 @@
 /* Global styles */
 html, body {
-    font-family: 'Source Sans Pro', sans-serif;
-    // font-family: 'Cardo', serif;
-
-    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    // RIP ugly body font font-family: 'Cardo', serif;
 
     // Gotta make that font look good
     text-rendering: geometricPrecision;
     line-height: 1.35; 
+    font-size: 16px;
     
     height: 100%;
     margin: 0;
     background: #efefef;
-    /* Prevent scrolling */
-    // overflow: hidden; 
 }
 
 section {
