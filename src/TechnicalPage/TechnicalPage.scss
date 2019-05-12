@@ -1,8 +1,19 @@
 .heading {
-    padding-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted grey;
 }
 
-.content {
-    padding-left: 30px;
-    padding-bottom: 20px;
+.technicalMain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.technicalSection {
+    padding: 20px;
+    padding-left: 0px;
+    margin-right: 20px;
+    flex-grow: 2;
+    width: 300px;
 }

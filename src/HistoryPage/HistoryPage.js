@@ -9,7 +9,7 @@ const HistoryPage = () => {
 
             <p>Brandeis was great. I took core classes in CS and explored topics I found interesting, especially Natural Language Processing.</p>
 
-            <p>Between years at Brandeis, I interned at Ginger.io in San Francisco. There I wrote backend code in Django and learned to move quickly. I loved being able to improve people's lives through code.</p>
+            <p>Between years at Brandeis, I interned at Ginger.io in San Francisco. There I wrote backend code in Django and learned to work quickly. I loved being able to improve people's lives through code.</p>
 
             <p>Next I worked for Practice Fusion, a company that builds an electronic health record system. I worked on a small team charged with finding creative solutions all over the stack.</p>
 

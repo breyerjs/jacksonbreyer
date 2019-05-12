@@ -1,10 +1,13 @@
 /* Global styles */
 html, body {
-    font-family: 'Cardo', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    // font-family: 'Cardo', serif;
+
     font-size: 16px;
 
     // Gotta make that font look good
     text-rendering: geometricPrecision;
+    line-height: 1.35; 
     
     height: 100%;
     margin: 0;
