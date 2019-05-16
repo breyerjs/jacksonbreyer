@@ -6,13 +6,10 @@ const AboutPage = () => {
     return(
         <div>
             <Header subheader={"is a software engineer"} />
-            <div className={styles.definition}>I am a full-stack ¹ developer on the Search Experience ² team at Yelp. ³</div>
-
-            <div className={styles.footnote}>¹ Frontend, backend, user-facing features, infrastructure, etc.</div>
-
-            <div className={styles.footnote}>² How users experience a search and its results.</div> 
-
-            <div className={styles.footnote}>³ Well, you probably know this one. But hey, <a href="http://www.yelp.com" target="_blank">take a look</a>.</div>
+            <p>I'm Jackson Breyer and this is my personal website.</p> 
+            <p>I'm currently a full-stack developer on the Search Experience team at Yelp. That means I write all sorts of code, and that it gets used by all sorts of people.</p>
+            <p>I wasn't always a Software Engineer. If you're interested in that journey, check out the 'History' section.</p>
+            <p>Otherwise, the 'Technical' and 'Projects' pages may be what you're after.</p>
         </div>
     );
 };
