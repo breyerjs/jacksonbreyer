@@ -51,4 +51,5 @@
 .contentContainer {
     padding: 75px;
     width: 33em; // 1 em is about 0.5 chars. 66 chars per line is recommended for single-column formats
+    overflow-y: scroll;
 }    
