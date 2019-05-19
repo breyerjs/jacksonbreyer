@@ -1,0 +1,54 @@
+.frameContainer {
+    display: flex;
+    height: 100%;
+}
+
+.navContainer {
+    display: inline-flex;
+    flex-direction: row;
+    height: 100%;
+    font-family: 'Cardo', serif;
+}
+
+.navCell {
+    width: 28px;
+    // top right bottom left
+    padding: 0px 10px 15px 10px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+
+    font-size: 24px;
+    display: flex;
+
+    text-decoration: none;
+
+    &:hover{
+        background: #f9e0e0;  
+    }
+
+    &.currentPage {
+        background:#d6d6d6;
+    }
+}
+
+.navText {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    align-self: center;
+
+    /* Prevent text selection */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.contentContainer {
+    padding: 75px;
+    width: 33em; // 1 em is about 0.5 chars. 66 chars per line is recommended for single-column formats
+}    
