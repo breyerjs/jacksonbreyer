@@ -2,10 +2,10 @@ import React from 'react';
 import Header from '../Header/Header';
 import styles from './TechnicalPage.scss';
 
-const TechnicalPage = () => {
+const TechnicalPage = (props) => {
     return(
         <div>
-            <Header subheader={"knows some technologies"} />
+            {props.fullSizeScreen && <Header subheader={"knows some technologies"} />}  
             <div className={styles.technicalMain}>
                 <div className={styles.technicalSection}>
                     <div className={styles.heading}>Profiles:</div>

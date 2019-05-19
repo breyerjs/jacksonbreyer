@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
+    "devFull": "webpack --mode production && node server.js",
     "start": "node server.js",
     "heroku-postbuild": "webpack -p",
     "build": "webpack --mode production",
@@ -35,6 +36,7 @@
     "classnames": "^2.2.6",
     "express": "^4.16.4",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^5.0.0"
   }
 }

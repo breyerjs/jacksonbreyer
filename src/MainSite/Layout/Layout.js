@@ -5,6 +5,7 @@ import HistoryPage from '../HistoryPage/HistoryPage';
 import AboutPage from '../AboutPage/AboutPage';
 import ProjectsPage from '../ProjectsPage/ProjectsPage';
 import TechnicalPage from '../TechnicalPage/TechnicalPage';
+import SmallScreen from '../SmallScreen/SmallScreen';
 
 import styles from './Layout.scss';
 
@@ -39,13 +40,7 @@ export default class Layout extends React.Component{
     render(){
         if (! this.state.bigEnough){
             return (
-                <div className={styles.tooSmall}>
-                    {"Diminutive screens"}<br />
-                    {"cannot render my website."}<br />
-                    {"Instead: a haiku."}<br />
-                    {"—Jackson"}<br /><br />
-                    {"p.s. Please open this in a bigger window :)"}
-                </div>
+                <SmallScreen />
             );
         }
 
@@ -81,15 +76,15 @@ export const PageNames = {
 const buildContent = (page) => {
     switch (page){
         case PageNames.ABOUT:
-            return <AboutPage />;
+            return <AboutPage fullSizeScreen />;
         case PageNames.HISTORY:
-            return <HistoryPage />;
+            return <HistoryPage fullSizeScreen />;
         case PageNames.PROJECTS:
-            return <ProjectsPage />;
+            return <ProjectsPage fullSizeScreen />;
         case PageNames.TECHNICAL:
-            return <TechnicalPage />;
+            return <TechnicalPage fullSizeScreen />;
         default:
-            return <AboutPage />;
+            return <AboutPage fullSizeScreen />;
     }
 }
 

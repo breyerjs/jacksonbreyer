@@ -75,7 +75,7 @@ export default class ProjectsPage extends React.Component {
     render() {
         return (
             <div>
-                <Header subheader={"likes to keep busy"} />
+                {this.props.fullSizeScreen && <Header subheader={"likes to keep busy"} />}
                 <div className={styles.projNavContainer}>
                     <span className={styles.maniculeSpan}>
                         <a onClick={() => this.handleOnManiculeClick(-1)}>☜ Prev</a>
