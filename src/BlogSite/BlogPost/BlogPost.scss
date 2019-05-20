@@ -4,16 +4,20 @@
 }
 
 .oneOfManyPosts {
-    max-height: 300px;
+    max-height: 16em;
     overflow-y: hidden;
 }
 
 .oneOfManyPostsContainer {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.readMoreLink {
+    padding-bottom: 2em;
 }
 
 .date {
     font-style: italic;
-    padding-bottom: 10px;
+    padding-bottom: 1em;
 }

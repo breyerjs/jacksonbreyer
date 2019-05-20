@@ -23,13 +23,15 @@ export default class BlogPost extends React.Component {
         const viewingAllPosts = !!this.props.postId;
         if (viewingAllPosts){
             return (
-                <div className={styles.oneOfManyPostsContainer}>
-                    <div className={styles.oneOfManyPosts}>
-                        <Link to={'/blog/' + post.id} className={styles.title}>{post.title}</Link>
-                        <div className={styles.date}>{post.date}</div>
-                        <div>{post.component}</div>
+                <div>
+                    <div className={styles.oneOfManyPostsContainer}>
+                        <div className={styles.oneOfManyPosts}>
+                            <Link to={'/blog/' + post.id} className={styles.title}>{post.title}</Link>
+                            <div className={styles.date}>{post.date}</div>
+                            <div>{post.component}</div>
+                        </div>
                     </div>
-                    <Link to={'/blog/' + post.id}>...read more</Link>
+                    <Link to={'/blog/' + post.id} className={styles.readMoreLink}>...read more</Link>
                 </div>
             );
         }
