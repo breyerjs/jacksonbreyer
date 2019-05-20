@@ -26,6 +26,7 @@ export default class BlogPost extends React.Component {
                 <div className={styles.oneOfManyPostsContainer}>
                     <div className={styles.oneOfManyPosts}>
                         <Link to={'/blog/' + post.id} className={styles.title}>{post.title}</Link>
+                        <div className={styles.date}>{post.date}</div>
                         <div>{post.component}</div>
                     </div>
                     <Link to={'/blog/' + post.id}>...read more</Link>
@@ -35,6 +36,7 @@ export default class BlogPost extends React.Component {
         return (
             <BlogFrame>
                 <div className={styles.title}>{post.title}</div>
+                <div className={styles.date}>{post.date}</div>
                 <div>{post.component}</div>
             </BlogFrame>
         );

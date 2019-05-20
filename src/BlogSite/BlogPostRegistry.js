@@ -9,13 +9,13 @@ export default {
     'test': {
         component: <Test />,
         title: 'Test Post',
-        date: 'some date',
+        date: 'May 19, 2019',
         id: 'test'
     },
     'test2': {
         component: <Test2 />,
         title: 'Test Post 2',
-        date: 'some date',
+        date: 'May 19, 2019',
         id: 'test2'
     }
 };
