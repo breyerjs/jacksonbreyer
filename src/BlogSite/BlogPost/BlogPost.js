@@ -5,7 +5,7 @@ import BlogFrame from '../BlogFrame/BlogFrame';
 import { Link } from 'react-router-dom'
 
 export default class BlogPost extends React.Component {
-    // Gets the specified post or returns the defaul 'post not found' placeholder
+    // Gets the specified post or returns the default 'post not found' placeholder
     getPostOrDefault() {
         let postId = this.props.postId ?
         // Either we're rendering from the 'all posts' page
