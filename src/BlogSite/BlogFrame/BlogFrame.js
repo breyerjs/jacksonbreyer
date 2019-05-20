@@ -27,9 +27,11 @@ class BlogFrame extends React.Component {
                     {this.generateNavCell('All Posts', '/blog')}
                     {this.generateNavCell('Main Site', '/')}
                 </div>
-                <div className={styles.contentContainer}>
-                    <BlogHeader />
-                    {this.props.children}
+                <div className={styles.scrollContainer}>
+                    <div className={styles.contentContainer}>
+                        <BlogHeader />
+                        {this.props.children}
+                    </div>
                 </div>
             </div>
         );
