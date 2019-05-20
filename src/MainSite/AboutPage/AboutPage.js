@@ -6,8 +6,8 @@ const AboutPage = (props) => {
     return(
         <div>
             {props.fullSizeScreen && <Header subheader={"is a software engineer"} />}
-            <p>I'm Jackson Breyer and this is my personal website.</p> 
-            <p>I'm currently a full-stack developer on the Search Experience team at Yelp. That means I write all sorts of code, and it gets used by all sorts of people.</p>
+            <p>My name is Jackson Breyer and this is my personal website.</p> 
+            <p>I'm a full-stack developer on the Search Experience team at Yelp. That means I write all sorts of code, and it gets used by all sorts of people.</p>
             {props.fullSizeScreen &&
                 <div>
                     <p>I wasn't always a Software Engineer. If you're interested in that journey, check out the 'History' section.</p>
