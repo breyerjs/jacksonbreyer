@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../../SharedComponents/Header/Header';
 import styles from './TechnicalPage.scss';
 
 const TechnicalPage = (props) => {
     return(
         <div>
-            {props.fullSizeScreen && <Header subheader={"knows some technologies"} />}  
+            {props.fullSizeScreen && <Header titleText={'Jackson Breyer'} subheader={"knows some technologies"} />}  
             <div className={styles.technicalMain}>
                 <div className={styles.technicalSection}>
                     <div className={styles.heading}>Profiles:</div>

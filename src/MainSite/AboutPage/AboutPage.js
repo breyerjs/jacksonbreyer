@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../../SharedComponents/Header/Header';
 import styles from './AboutPage.scss';
 
 const AboutPage = (props) => {
     return(
         <div>
-            {props.fullSizeScreen && <Header subheader={"is a software engineer"} />}
+            {props.fullSizeScreen && <Header titleText={'Jackson Breyer'} subheader={"is a software engineer"} />}
             <p>My name is Jackson Breyer and this is my personal website.</p> 
             <p>I'm a full-stack developer on the Search Experience team at Yelp. That means I write all sorts of code, and it gets used by all sorts of people.</p>
             {props.fullSizeScreen &&

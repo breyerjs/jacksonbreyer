@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../../SharedComponents/Header/Header';
 import ProjectViewer from './ProjectViewer';
 import styles from './ProjectsPage.scss';   
 
@@ -75,7 +75,7 @@ export default class ProjectsPage extends React.Component {
     render() {
         return (
             <div>
-                {this.props.fullSizeScreen && <Header subheader={"likes to keep busy"} />}
+                {this.props.fullSizeScreen && <Header titleText={'Jackson Breyer'} subheader={"likes to keep busy"} />}
                 <div className={styles.projNavContainer}>
                     <span className={styles.maniculeSpan}>
                         <a onClick={() => this.handleOnManiculeClick(-1)}>☜ Prev</a>

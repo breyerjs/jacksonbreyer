@@ -2,7 +2,7 @@
 //this mobile-optimized version of the site
 
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../../SharedComponents/Header/Header';
 import styles from './SmallScreen.scss';
 import AboutPage from '../AboutPage/AboutPage';
 import TechnicalPage from '../TechnicalPage/TechnicalPage';
@@ -15,7 +15,7 @@ export default class SmallScreen extends React.Component {
         // TODO: Better solution for the dividers below (<hr />)
         return (
             <div className={styles.mainContainer}>
-                <Header subheader={"is a software engineer"} />
+                <Header titleText={'Jackson Breyer'} subheader={"is a software engineer"} />
                 <AboutPage />
                 <hr /><hr />
                 <TechnicalPage />

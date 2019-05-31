@@ -14,7 +14,8 @@ export default class Layout extends React.Component{
         super(props);
         this.state = {
             page: PageNames.ABOUT, 
-            bigEnough: true};
+            bigEnough: true
+        };
     }
 
     // Passed down to nav, so we can change content here

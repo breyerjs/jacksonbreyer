@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom'
 import BlogPost from '../BlogPost/BlogPost';
 import BlogList from '../BlogList/BlogList';
-import BlogHeader from '../BlogHeader/BlogHeader';
+import Header from '../../SharedComponents/Header/Header';
 import styles from './BlogFrame.scss';
 import classNames from 'classnames';
 
@@ -29,7 +29,7 @@ class BlogFrame extends React.Component {
                 </div>
                 <div className={styles.scrollContainer}>
                     <div className={styles.contentContainer}>
-                        <BlogHeader />
+                        <Header blogSite titleText={"Jackson's Blog"} />
                         {this.props.children}
                     </div>
                 </div>
