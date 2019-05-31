@@ -20,16 +20,10 @@ const pages = [
 ];
 
 class BlogFrame extends React.Component {
-    buildNavigation(){
-        return(
-            <Navigation pages={pages} currentPage={this.props.location.pathname} usesRouter />
-        )
-    }
-
     render() {
         return (
             <div className={styles.frameContainer}>
-                {this.buildNavigation()}
+                <Navigation pages={pages} currentPage={this.props.location.pathname} usesRouter />
                 <div className={styles.scrollContainer}>
                     <div className={styles.contentContainer}>
                         <Header blogSite titleText={"Jackson's Blog"} />

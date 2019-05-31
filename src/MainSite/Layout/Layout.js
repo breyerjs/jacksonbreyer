@@ -29,16 +29,10 @@ class Layout extends React.Component{
         super(props);
     }
 
-    buildNavigation(){
-        return(
-            <Navigation pages={pages} currentPage={this.props.location.pathname} />
-        )
-    }
-
     render(){
         return (
             <div className={styles.layoutContainer}>
-                {this.buildNavigation()}
+                <Navigation pages={pages} currentPage={this.props.location.pathname} />
                 <div className={styles.scrollContainter}>
                     <div className={styles.contentContainer}>
                         {this.props.children}

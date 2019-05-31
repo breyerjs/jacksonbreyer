@@ -13,7 +13,7 @@ import classNames from 'classnames';
  *      },
  *  ...
  *  ]
- * currentPage: string route of the current page. Should match the route, above.
+ * currentPage: string route of the current page. Should match a route, above.
  */
 export default class Navigation extends React.Component {
     generateNavCell(title, route){
