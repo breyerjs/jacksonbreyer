@@ -15,8 +15,8 @@ import classNames from 'classnames';
  *      },
  *  ...
  *  ]
- * 
  * currentPage: string title of the current page. Should match the title, above.
+ * usesRouter: boolean indicating if we're using react router or an oncliick to handle nav
  */
 export default class Navigation extends React.Component {
     generateNavCell(title, onClickHandlerOrRoute){
