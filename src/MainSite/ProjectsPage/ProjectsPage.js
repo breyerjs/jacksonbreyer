@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../SharedComponents/Header/Header';
+import Layout from '../Layout/Layout';
 import ProjectViewer from './ProjectViewer';
 import styles from './ProjectsPage.scss';   
 
@@ -74,7 +75,7 @@ export default class ProjectsPage extends React.Component {
 
     render() {
         return (
-            <div>
+            <Layout>
                 {this.props.fullSizeScreen && <Header titleText={'Jackson Breyer'} subheader={"likes to keep busy"} />}
                 <div className={styles.projNavContainer}>
                     <span className={styles.maniculeSpan}>
@@ -88,7 +89,7 @@ export default class ProjectsPage extends React.Component {
                 <div>
                     {allProjects[this.state.projIndex]}
                 </div>
-            </div>
+            </Layout>
         );
     }
 }

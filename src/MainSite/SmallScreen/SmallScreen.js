@@ -4,10 +4,10 @@
 import React from 'react';
 import Header from '../../SharedComponents/Header/Header';
 import styles from './SmallScreen.scss';
-import AboutPage from '../AboutPage/AboutPage';
 import TechnicalPage from '../TechnicalPage/TechnicalPage';
 import HistoryPage from '../HistoryPage/HistoryPage';
 import ProjectsPage from '../ProjectsPage/ProjectsPage';
+import LandingPage from '../LandingPage/LandingPage';
 
 export default class SmallScreen extends React.Component {
 
@@ -16,7 +16,7 @@ export default class SmallScreen extends React.Component {
         return (
             <div className={styles.mainContainer}>
                 <Header titleText={'Jackson Breyer'} subheader={"is a software engineer"} />
-                <AboutPage />
+                <LandingPage />
                 <hr /><hr />
                 <TechnicalPage />
                 <hr /><hr />

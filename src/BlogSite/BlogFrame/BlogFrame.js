@@ -7,23 +7,22 @@ import Navigation from '../../SharedComponents/Navigation/Navigation';
 import styles from './BlogFrame.scss';
 import classNames from 'classnames';
 
+// Pages we can render. We'll feed these into Navigation.
+const pages = [
+    {
+        title: 'All Posts',
+        route: '/blog'
+    },
+    {
+        title: 'Main Site',
+        route: '/'
+    }
+];
+
 class BlogFrame extends React.Component {
     buildNavigation(){
-        const pages = [
-            {
-                title: 'All Posts',
-                route: '/blog'
-            },
-            {
-                title: 'Main Site',
-                route: '/'
-            }
-        ];
-
-        const currentPage = pages.find((page) => page.route === this.props.location.pathname).title;
-
         return(
-            <Navigation pages={pages} currentPage={currentPage} usesRouter />
+            <Navigation pages={pages} currentPage={this.props.location.pathname} usesRouter />
         )
     }
 

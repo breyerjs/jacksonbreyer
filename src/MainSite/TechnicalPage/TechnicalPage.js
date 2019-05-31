@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '../../SharedComponents/Header/Header';
+import Layout from '../Layout/Layout';
 import styles from './TechnicalPage.scss';
 
 const TechnicalPage = (props) => {
     return(
-        <div>
+        <Layout>
             {props.fullSizeScreen && <Header titleText={'Jackson Breyer'} subheader={"knows some technologies"} />}  
             <div className={styles.technicalMain}>
                 <div className={styles.technicalSection}>
@@ -27,7 +28,7 @@ const TechnicalPage = (props) => {
                     <div className={styles.content}>Databases, Full-Stack Web Development, Machine Learning, Natural Language Processing</div>
                 </div>
             </div>
-        </div>
+        </Layout>
     );
 };
 export default TechnicalPage;
