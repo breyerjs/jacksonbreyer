@@ -27,7 +27,7 @@ class Layout extends React.Component{
     render(){
         return (
             <div className={styles.layoutContainer}>
-                <Navigation pages={pages} currentPage={this.props.location.pathname} fullSizeScreen={this.props.fullSizeScreen} />
+                <Navigation pages={pages} currentPage={this.props.location.pathname} />
                 <div className={styles.scrollContainter}>
                     <div className={styles.contentContainer}>
                         {this.props.children}

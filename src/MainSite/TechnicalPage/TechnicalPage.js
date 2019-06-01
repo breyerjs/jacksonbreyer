@@ -5,7 +5,7 @@ import styles from './TechnicalPage.scss';
 
 const TechnicalPage = (props) => {
     return(
-        <Layout fullSizeScreen={props.fullSizeScreen}>
+        <Layout>
             <Header titleText={'Jackson Breyer'} subheader={"knows some technologies"} />
             <div className={styles.technicalMain}>
                 <div className={styles.technicalSection}>
