@@ -5,11 +5,13 @@
 
 .contentContainer {
     padding: 75px;
+    padding-bottom: 0px;
     max-width: 33em; // 1 em is about 0.5 chars. 66 chars per line is recommended for single-column formats
 }
 
 .contentContainerSmallScreen {
     padding: 30px;
+    padding-bottom: 0px;
     max-width: 33em; // 1 em is about 0.5 chars. 66 chars per line is recommended for single-column formats
 }
 
