@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../../SharedComponents/Navigation/Navigation';
-import SmallScreen from '../SmallScreen/SmallScreen';
 import { withRouter } from 'react-router-dom'
 import styles from './Layout.scss';
 
@@ -28,7 +27,7 @@ class Layout extends React.Component{
     render(){
         return (
             <div className={styles.layoutContainer}>
-                <Navigation pages={pages} currentPage={this.props.location.pathname} />
+                <Navigation pages={pages} currentPage={this.props.location.pathname} fullSizeScreen={this.props.fullSizeScreen} />
                 <div className={styles.scrollContainter}>
                     <div className={styles.contentContainer}>
                         {this.props.children}

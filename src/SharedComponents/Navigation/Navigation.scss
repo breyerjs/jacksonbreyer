@@ -30,6 +30,15 @@
     }
 }
 
+.hamburgerMenu {
+    display: flex;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 20px;
+    width: 20px;
+
+}
 
 .navText {
     writing-mode: vertical-lr;

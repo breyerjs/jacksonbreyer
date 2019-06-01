@@ -4,7 +4,7 @@ import Layout from '../Layout/Layout';
 
 const HistoryPage = (props) => {
     return(
-        <Layout>
+        <Layout fullSizeScreen={props.fullSizeScreen}>
             <Header titleText={'Jackson Breyer'} subheader={"wasn't always a software engineer"} />
             <p>I had an English degree and was working as a paralegal when I realized that I wanted something different. So I began teaching myself to program after work. After a year and a half of self-study, I took the plunge and went back for a Master's degree in Computer Science at Brandeis University.</p>
 

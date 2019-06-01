@@ -1,7 +1,10 @@
 import React from 'react';
 import styles from './Navigation.scss';
 import { Link } from 'react-router-dom'
+import { CSSTransition } from "react-transition-group";
 import classNames from 'classnames';
+import hamburger from './hamburger.png'
+
 
 /**
  * Expected Props:
@@ -14,8 +17,16 @@ import classNames from 'classnames';
  *  ...
  *  ]
  * currentPage: string route of the current page. Should match a route, above.
+ * fullSizeScreen: whether we're rendering a small (mobile) screen or not.
  */
 export default class Navigation extends React.Component {
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+            showMenu: this.props.fullSizeScreen,
+        }
+    }
     generateNavCell(title, route){
         const classes = classNames(
             // Apply the gridlines
@@ -29,12 +40,20 @@ export default class Navigation extends React.Component {
             </Link>
         );
     }
+    toggleMenu(){
+        this.setState({showMenu: !this.state.showMenu});
+    }
     render(){
         return (
             <div className={styles.navContainer}>
-                {this.props.pages.map((page) => this.generateNavCell(page.title, page.route ))}
-            </div>
+                {this.state.showMenu &&
+                    this.props.pages.map((page) => this.generateNavCell(page.title, page.route ))
+                }
+                {! this.props.fullSizeScreen && 
+                    <img className={styles.hamburgerMenu} onClick={() => this.toggleMenu()} src={hamburger} />
+                }
 
+            </div>
         );
     }
 };

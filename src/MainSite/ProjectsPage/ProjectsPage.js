@@ -75,7 +75,7 @@ export default class ProjectsPage extends React.Component {
 
     render() {
         return (
-            <Layout>
+            <Layout fullSizeScreen={this.props.fullSizeScreen}>
                 <Header titleText={'Jackson Breyer'} subheader={"likes to keep busy"} />
                 <div className={styles.projNavContainer}>
                     <span className={styles.maniculeSpan}>

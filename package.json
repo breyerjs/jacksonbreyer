@@ -35,8 +35,10 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "express": "^4.16.4",
+    "file-loader": "^3.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "1.x"
   }
 }
