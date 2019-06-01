@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '../../SharedComponents/Navigation/Navigation';
 import { withRouter } from 'react-router-dom'
 import styles from './Layout.scss';
+import { screenIsBigEnough } from '../../SharedComponents/Navigation/Navigation';
 
 // Pages we can render. We'll feed these into Navigation.
 const pages = [
@@ -29,7 +30,7 @@ class Layout extends React.Component{
             <div className={styles.layoutContainer}>
                 <Navigation pages={pages} currentPage={this.props.location.pathname} />
                 <div className={styles.scrollContainter}>
-                    <div className={styles.contentContainer}>
+                    <div className={screenIsBigEnough() ? styles.contentContainer : styles.contentContainerSmallScreen}>
                         {this.props.children}
                     </div>
                 </div>

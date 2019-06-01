@@ -6,6 +6,20 @@ import classNames from 'classnames';
 import hamburger from './hamburger.png'
 
 /**
+ * Gut check heuristic as to whether the screen is big enough.
+ * There's no science here. I just picked numbers that seemed big enough.
+ */
+export const screenIsBigEnough = () => {
+    var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    x = w.innerWidth || e.clientWidth || g.clientWidth,
+    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+    return x + y > 800 && x > 400 && y > 400;
+}
+
+/**
  * Expected Props:
  *  pages: list of page objects like so:
  *  [
@@ -18,23 +32,6 @@ import hamburger from './hamburger.png'
  * currentPage: string route of the current page. Should match a route, above.
  * fullSizeScreen: whether we're rendering a small (mobile) screen or not.
  */
-
-
-/**
- * Gut check heuristic as to whether the screen is big enough.
- * There's no science here. I just picked numbers that seemed big enough.
- */
-const screenIsBigEnough = () => {
-    var w = window,
-    d = document,
-    e = d.documentElement,
-    g = d.getElementsByTagName('body')[0],
-    x = w.innerWidth || e.clientWidth || g.clientWidth,
-    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
-    return x + y > 800 && x > 400 && y > 400;
-}
-
-
 export default class Navigation extends React.Component {
     constructor(props) {
         super(props);

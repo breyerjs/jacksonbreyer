@@ -8,11 +8,12 @@
     max-width: 33em; // 1 em is about 0.5 chars. 66 chars per line is recommended for single-column formats
 }
 
+.contentContainerSmallScreen {
+    padding: 30px;
+    max-width: 33em; // 1 em is about 0.5 chars. 66 chars per line is recommended for single-column formats
+}
+
 .scrollContainter {
     overflow-y: scroll;
     width: 100%;
-}
-
-.tooSmall {
-    padding: 10px;
 }
