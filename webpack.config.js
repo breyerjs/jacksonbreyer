@@ -77,7 +77,7 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             { from: './src/favicon.ico' },
-            { from: './src/font', to: 'src/font/' },
+            { from: './src/font', to: 'src/Font/' },
         ]),
     ],
 };
