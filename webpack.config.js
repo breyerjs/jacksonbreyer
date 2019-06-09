@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     module: {
@@ -54,7 +55,13 @@ module.exports = {
                 use: [
                   'file-loader'
                 ]
-           }
+           },
+           {
+            test: /\.(woff|woff2|eot|ttf|otf)$/,
+            use: [
+                'file-loader'
+            ]
+        }
         ]
     },
     output: {
@@ -68,5 +75,9 @@ module.exports = {
             template: "./src/index.html",
             filename: "./index.html"
         }),
+        new CopyWebpackPlugin([
+            { from: './src/favicon.ico' },
+            { from: './src/font', to: 'src/font/' },
+        ]),
     ],
 };

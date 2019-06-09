@@ -79,11 +79,11 @@ export default class ProjectsPage extends React.Component {
                 <Header titleText={'Jackson Breyer'} subheader={"likes to keep busy"} />
                 <div className={styles.projNavContainer}>
                     <span className={styles.maniculeSpan}>
-                        <a onClick={() => this.handleOnManiculeClick(-1)}>☜ Prev</a>
+                        <a onClick={() => this.handleOnManiculeClick(-1)}>{"<< Prev"}</a>
                     </span>
                     <span className={styles.btwnPrevAndNext} />
                     <span className={styles.maniculeSpan}>
-                        <a onClick={() => this.handleOnManiculeClick(1)}>Next ☞</a>
+                        <a onClick={() => this.handleOnManiculeClick(1)}>{"Next >>"}</a>
                     </span>
                 </div>
                 <div>

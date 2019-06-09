@@ -14,7 +14,7 @@ const HistoryPage = (props) => {
 
             <p>Next I worked for Practice Fusion, a company that builds an electronic health record system. I worked on a small team charged with finding creative solutions all over the stack.</p>
 
-            <p>Currently I'm a full-stack developer on Yelp's Search Experience team. I enjoy the challenges of engineering at scale and tackling problems that impact millions of people.</p>
+            <p>Currently I'm a full-stack developer on Yelp's Search Experience team. I enjoy the challenges of engineering at scale and tackling problems that impact millions of people daily.</p>
         </Layout>
     );
 };
