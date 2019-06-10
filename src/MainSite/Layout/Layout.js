@@ -29,10 +29,8 @@ class Layout extends React.Component{
         return (
             <div className={styles.layoutContainer}>
                 <Navigation pages={pages} currentPage={this.props.location.pathname} />
-                <div className={styles.scrollContainter}>
-                    <div className={screenIsBigEnough() ? styles.contentContainer : styles.contentContainerSmallScreen}>
-                        {this.props.children}
-                    </div>
+                <div className={screenIsBigEnough() ? styles.contentContainer : styles.contentContainerSmallScreen}>
+                    {this.props.children}
                 </div>
             </div>
         );

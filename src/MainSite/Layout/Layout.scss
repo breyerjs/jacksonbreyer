@@ -1,6 +1,5 @@
 .layoutContainer {
     display: flex;
-    height: 100%;
 }
 
 .contentContainer {
@@ -11,11 +10,6 @@
 
 .contentContainerSmallScreen {
     padding: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 2em;
     max-width: 33em; // 1 em is about 0.5 chars. 66 chars per line is recommended for single-column formats
-}
-
-.scrollContainter {
-    overflow-y: scroll;
-    width: 100%;
 }
