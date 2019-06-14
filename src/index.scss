@@ -10,12 +10,8 @@ html, body {
     // RIP ugly body font font-family: 'Cardo', serif;
 
     // Gotta make that font look good
-    text-rendering: geometricPrecision;
     line-height: 1.35; 
     font-size: 16px;
-    font-kerning: normal;
-    font-feature-settings: "kern", "liga", "clig", "calt";
-    font-variant-ligatures: common-ligatures contextual;
     
     height: 100%;
     margin: 0;
