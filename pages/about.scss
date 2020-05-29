@@ -1,0 +1,23 @@
+.heading {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid grey;
+    padding-bottom: 0.25em
+}
+
+.intro {
+    margin-bottom: 2em;
+}
+
+.aboutItems {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.aboutSection {
+    padding-right: 1em;
+    padding-bottom: 2.5em;
+    margin-right: 1em;
+    flex-grow: 2;
+}

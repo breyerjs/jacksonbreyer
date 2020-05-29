@@ -1,0 +1,56 @@
+.navContainer {
+    display: inline-flex;
+    flex-direction: row;
+    height: 100vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navCell {
+    width: 28px;
+    // top right bottom left
+    padding: 0px 10px 15px 10px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+
+    font-size: 24px;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background: #f9e0e0;  
+    }
+
+    &.currentPage {
+        background:#d6d6d6;
+    }
+}
+
+.hamburgerMenu {
+    display: flex;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.navText {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    align-self: center;
+
+    /* Prevent text selection */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}

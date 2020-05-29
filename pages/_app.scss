@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Din Sans';
+    src: url(/font/DINPro.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url(/font/Spectral/Spectral-Regular.ttf) format('truetype');
+}
+
+/* Global styles */
+html, body {
+    font-family: 'Spectral', serif;
+    font-display: auto;
+    line-height: 1.35; 
+    font-size: 18px;
+    
+    height: 100%;
+    margin: 0;
+    // background: #efefef;
+}
+
+p {
+    margin-bottom: 1.45em;
+}
+
+section {
+    height: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}

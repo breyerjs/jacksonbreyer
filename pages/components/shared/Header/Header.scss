@@ -1,0 +1,47 @@
+.headerContainer {
+    margin-bottom: 3.5em;
+    padding-top: 4em;
+}
+
+.titleRow {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.avatar {
+    height: 55px;
+    width: 55px;
+    padding-right: 2em;
+}
+
+.title {
+    font-size: 36px;
+    padding-right: 4em;
+}
+
+.navItem {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.currentIndicator {
+    padding-right: 0.25em;
+    color: #549dc4;
+    size: 24px;
+    &.hiddenIndicator {
+        visibility: hidden;
+    }
+}
+
+.navFlex {
+    margin-bottom: 0.5em;
+}
+
+.subheader {
+    padding-top: 0.25em;
+    text-align: center;
+    margin-right: 20em;
+}
