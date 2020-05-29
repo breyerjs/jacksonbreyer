@@ -29,7 +29,7 @@ const About = (props) => {
 
                     <div className={'aboutSection'}>
                         <div className={'heading'}>Site repo:</div>
-                        <div className={'content'}><a href="https://github.com/breyerjs/jacksonbreyer/tree/master/src" target="_blank">View on Github</a></div>
+                        <div className={'content'}><a href="https://github.com/breyerjs/jacksonbreyer/tree/master" target="_blank">View on Github</a></div>
                     </div>
 
                     <div className={'aboutSection'}>
