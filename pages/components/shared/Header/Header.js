@@ -29,26 +29,32 @@ export default function Header(props) {
         const currentPageIndicatorClass = router.pathname === page.route ? 'currentIndicator' : classNames('hiddenIndicator', 'currentIndicator')
 
         return(
-            <div className={'navFlex'} key={page.route}>
-               <Link href={page.route}> 
+               <Link href={page.route} key={page.route}> 
                     <a className={'navItem'}> 
                         <span className={currentPageIndicatorClass}> ● </span>
                         {page.name} 
                     </a> 
                 </Link>
-            </div>
         );
     };
     
+    const avatar = <img className={'avatar'} alt={'avatar'} src={require('../../../../public/avatar.png')} />;
     return (
         <div className={'headerContainer'}>
-            <div className={'titleRow'}>
-                <img className={'avatar'} alt={'avatar'} src={require('../../../../public/avatar.png')} />
+            <div className={'wwwTitleRow'}>
+                {avatar}
                 <span className={'title'}> {props.titleText} </span>
                 {pages.map((page) => generateNavLink(page))}
-
             </div>
-            {/* {props.subheader && <div className={'subheader'}>...{props.subheader}</div>} */}
+
+            <div className={'mobileTitleRow'}>
+                {avatar}
+                <span className={'title'}> {props.titleText} </span>
+                <div className={'lineBreak'}></div>
+                <div className={'navItemGroup'}>
+                    {pages.map((page) => generateNavLink(page))}
+                </div>
+            </div>
         </div>
     );
 };

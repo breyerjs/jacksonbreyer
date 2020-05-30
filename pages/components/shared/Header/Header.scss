@@ -1,13 +1,14 @@
+/// VIEWPORT AGNOSTIC ///
+
 .headerContainer {
     margin-bottom: 3.5em;
     padding-top: 4em;
 }
 
-.titleRow {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: center;
+.title {
+    font-size: 36px;
+    padding-right: 4em;
+    white-space: nowrap;
 }
 
 .avatar {
@@ -16,16 +17,21 @@
     padding-right: 2em;
 }
 
-.title {
-    font-size: 36px;
-    padding-right: 4em;
+
+.navItemGroup {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .navItem {
     margin-left: 1em;
     margin-right: 1em;
     text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0.35em;
 }
+
 
 .currentIndicator {
     padding-right: 0.25em;
@@ -36,12 +42,48 @@
     }
 }
 
-.navFlex {
-    margin-bottom: 0.5em;
+/// WWW SPECIFIC ///
+
+.wwwTitleRow {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-.subheader {
-    padding-top: 0.25em;
-    text-align: center;
-    margin-right: 20em;
+// Hides the www header if the screen is too narrow
+@media only screen and (max-width: 759px) {
+    .wwwTitleRow { display: none; }
+}
+
+/// MOBILE SPECIFIC ///
+
+.mobileTitleRow {
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row wrap;
+}
+
+// Hides the mobile header if the screen is too narrow
+@media only screen and (min-width: 760px) {
+    .mobileTitleRow { display: none; }
+}
+
+// Add padding to the avatar if mobile viewer
+.mobileTitleRow > .avatar {
+    padding-left: 1em;
+}
+
+// Remove padding btwn title and nav when in mobile window
+.mobileTitleRow > .title {
+    padding-right: 0em;
+}
+
+.mobileTitleRow > .navItemGroup {
+    padding-top: 1em;
+    padding-left: 4.5em;
+}
+
+.lineBreak {
+    width: 100px;
 }
