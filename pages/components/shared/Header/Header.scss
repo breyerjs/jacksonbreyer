@@ -29,17 +29,15 @@
     text-decoration: none;
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 0.35em;
 }
 
+.selectedNavItem {
+    border-bottom: 1px solid #549dc4;
+}
 
-.currentIndicator {
-    padding-right: 0.25em;
-    color: #549dc4;
-    size: 24px;
-    &.hiddenIndicator {
-        visibility: hidden;
-    }
+// Needed to offset the border on the selected item
+.unselectedNavItem {
+    padding-bottom: 1px;
 }
 
 /// WWW SPECIFIC ///

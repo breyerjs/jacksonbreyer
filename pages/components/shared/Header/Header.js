@@ -26,15 +26,14 @@ export default function Header(props) {
     */
     const generateNavLink = (page) => {
         const router = useRouter();
-        const currentPageIndicatorClass = router.pathname === page.route ? 'currentIndicator' : classNames('hiddenIndicator', 'currentIndicator')
+        const currentPageIndicatorClass = router.pathname === page.route ? 'selectedNavItem' : 'unselectedNavItem';
 
         return(
-               <Link href={page.route} key={page.route}> 
-                    <a className={'navItem'}> 
-                        <span className={currentPageIndicatorClass}> ● </span>
-                        {page.name} 
-                    </a> 
-                </Link>
+            <Link href={page.route} key={page.route}> 
+                <a className={classNames('navItem', currentPageIndicatorClass)}> 
+                    {page.name} 
+                </a> 
+            </Link>
         );
     };
     
