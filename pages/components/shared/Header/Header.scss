@@ -7,7 +7,7 @@
 
 .title {
     font-size: 36px;
-    padding-right: 4em;
+    padding-right: 5.5em;
     white-space: nowrap;
 }
 
@@ -21,6 +21,7 @@
 .navItemGroup {
     display: flex;
     flex-wrap: nowrap;
+    padding-bottom: 0.25em;
 }
 
 .navItem {
@@ -80,7 +81,7 @@
 
 .mobileTitleRow > .navItemGroup {
     padding-top: 1em;
-    padding-left: 3.5em;
+    padding-left: 4em;
 }
 
 .lineBreak {

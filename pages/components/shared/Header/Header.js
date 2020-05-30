@@ -43,7 +43,9 @@ export default function Header(props) {
             <div className={'wwwTitleRow'}>
                 {avatar}
                 <span className={'title'}> {props.titleText} </span>
-                {pages.map((page) => generateNavLink(page))}
+                <div className={'navItemGroup'}>
+                    {pages.map((page) => generateNavLink(page))}
+                </div>
             </div>
 
             <div className={'mobileTitleRow'}>
