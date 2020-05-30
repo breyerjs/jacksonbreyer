@@ -64,7 +64,7 @@
     flex-flow: row wrap;
 }
 
-// Hides the mobile header if the screen is too narrow
+// Hides the mobile header if the screen is too wide
 @media only screen and (min-width: 760px) {
     .mobileTitleRow { display: none; }
 }

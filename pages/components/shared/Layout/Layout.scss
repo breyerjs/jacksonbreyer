@@ -8,6 +8,14 @@
     
 }
 
+// Less padding if we're on a mobile screen
+@media only screen and (max-width: 759px) {
+    .contentContainer { 
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
 .layoutContainer{
     text-align: center;
 }
