@@ -1,9 +1,10 @@
 // next.config.js
 const withStyles = require('@webdeb/next-styles')
 const withImages = require('next-images')
-const withFonts = require('next-fonts');
+const withFonts = require('next-fonts'); 
 
- 
+
+
 // Note the nested with loaders. 
 module.exports = withImages(
     withFonts(
@@ -19,5 +20,12 @@ module.exports = withImages(
             includePaths: ["src/styles"], // @import 'variables'; # loads (src/styles/varialbes.scss), you got it..
             },
         },
+        webpack: (config) => {
+            config.module.rules.push({
+                test: /\.md$/,
+                use: 'raw-loader'
+            });
+            return config
+        }
     },
 )))
