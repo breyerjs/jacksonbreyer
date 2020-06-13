@@ -1,6 +1,6 @@
 ---
 title: "I Have a Blog Now"
-date: "2020-07-13"
+date: "2020-06-13"
 description: "Finally got around to setting up my blog. This is just a quick hello."
 ---
 
