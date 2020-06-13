@@ -6,8 +6,6 @@ import matter from 'gray-matter';
 import styles from './words.scss'
 
 
-const postsRoute = "/words/"
-
 const Words = (props) => {
     const postList = props.posts;
     // Sorts the posts so recent ones appear first
@@ -25,7 +23,7 @@ const Words = (props) => {
 const createWordsEntry = (post) => {
     return (
         <div className={'postEntry'} key={post.slug}>
-            <Link href={postsRoute + post.slug}> 
+            <Link href={'words/[wordsid]'} as={`/words/${post.slug}`}> 
                 <a className={'entryTitle'}> {post.frontmatter.title} </a> 
             </Link>
             <div className={'entryDate'}>{post.frontmatter.date}</div>
