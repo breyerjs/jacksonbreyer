@@ -31,7 +31,7 @@ So I became a paralegal. I worked at Cadwalader, Wickersham, and Taft (CWT), whi
 
 I had a productive first year at CWT. I got the LSAT score I needed, I secured some strong recommendations, and I feel like I got an excellent window into the industry. 
 
-After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle and interpersonal quirks of the profession did _not_ appeal to me. I felt like I would need to change my personality to suit the profession, rather than being who I wanted to be. 
+After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle of the profession did _not_ appeal to me. I felt like I would need to change my personality to suit the profession, rather than being who I wanted to be. 
 
 Back to square one. My paralegal job felt like a dead-end and law school felt like an expensive mistake. What to do?
 
@@ -45,7 +45,7 @@ I'd never programmed before, but...sure. Why not?
 
 So at 23-years-old, I wrote my first line of code. And let me tell you, when I saw "hello world" printed in the terminal, it was glorious. 
 
-Silly as it was, I was drunk with power. I could make the computer print out _anything_. In a strange way, I found programming similar to the creative/logical act of sentence diagramming, which I loved. So I was hooked. I started spending all of my outside-work time programming. 
+Silly as it was, I was drunk with power. I could make the computer print out _anything_. In a strange way, I found programming similar to the creative/logical act of sentence diagramming, which I loved. So I was hooked. I started spending all of my free time programming. 
 
 #### Learn Programming
 
@@ -92,7 +92,7 @@ Applying to grad school was pretty straightforward. The GRE felt like a piece of
 
 Few schools would accept me without a bachelor's in Computer Science. So that narrowed the field for me, in some ways a blessing. I applied to about five schools.
 
-Of the candidates, Brandeis was my top pick. There, I could take remedial undergraduate classes while I did my Master's. And they had a strong Computational Linguistics program to boot.
+Of those, Brandeis was my top pick. There, I could take remedial undergraduate classes while I did my Master's. And they had a strong Computational Linguistics program to boot.
 
 My background actually made parts of the application very easy. Writing a personal statement? No problem. Verbal portion of the GRE? Forget about it. 
 
@@ -150,7 +150,7 @@ Unlike my internship, I felt like I had the skills to contribute to my team. Arm
 
 #### And Beyond
 
-Since then, I've landed at Yelp. There, I've pushed features that millions of people use every day. I've even taken on the role of Engineering Manager. I lead the team that handles the Search experience. 
+Since then, I've landed at Yelp. There, I've pushed features that millions of people use every day. I've even taken on the role of Engineering Manager. I lead the team that handles the search experience. 
 
 My road to software engineering was long, difficult, and felt uncertain at every step. It took a series of great mentors, lucky breaks, and a level of perseverance that brought me to my limits often.
 
