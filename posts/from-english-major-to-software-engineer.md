@@ -10,7 +10,7 @@ As an undergraduate I studied English, but since then I've taken an untraditiona
 
 Over the years, I've gotten everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
 
-I'm also writing for those who might be considering a similar jump. Hopefully my story can give foresight into the road ahead.
+I'm also writing for those who might be considering a similar jump. Hopefully my story can give some insight into the road ahead.
 
 To be clear, _many_ software engineers have untraditional backgrounds. I'm not claiming to be unique in that respect. But hopefully someone out in the aether finds this post helpful. Or at least entertaining.
 
@@ -29,9 +29,9 @@ But becoming a lawyer means law school, which is expensive and itself requires t
 
 So I became a paralegal. I worked at Cadwalader, Wickersham, and Taft (CWT), which is a very old, very large, and very traditional law firm. If you've heard of BigLaw, that's CWT.
 
-I had a productive year at CWT. I got the LSAT score I needed, I secured some strong recommendations, and I feel like I got an excellent window into the industry. 
+I had a productive first year at CWT. I got the LSAT score I needed, I secured some strong recommendations, and I feel like I got an excellent window into the industry. 
 
-After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle and interpersonal quirks of the profession did _not_ appeal to me.
+After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle and interpersonal quirks of the profession did _not_ appeal to me. I felt like I would need to change my personality to suit the profession, rather than being who I wanted to be. 
 
 Back to square one. My paralegal job felt like a dead-end and law school felt like an expensive mistake. What to do?
 
@@ -39,7 +39,7 @@ Back to square one. My paralegal job felt like a dead-end and law school felt li
 
 While continuing on as a paralegal, I tried to learn everything I could about other industries. Maybe one of them would stand out.
 
-After a few months of this, my friend said to me: "You like linguistics, right? How about you try programming in Python. There are lots of cool linguistic applications for Python programming." 
+After a few months, my friend said to me: "You like linguistics, right? How about you try programming in Python. There are lots of cool linguistic applications for Python programming." 
 
 I'd never programmed before, but...sure. Why not? 
 
@@ -83,16 +83,16 @@ Switching careers already felt risky, and I was desperate to reduce uncertainty.
 
 I've met many bootcamp graduates since then, most of them highly driven and intelligent. Some have found success, some not. 
 
-It's worth acknowledging that I enjoy several privileges which made it possible for me to quit my job and spend two years in grad school. I am very fortunate in that respect.
+It's worth acknowledging that I enjoy several privileges which made it possible for me to quit my job and spend two years in grad school. I am very fortunate in that respect, and very grateful.
 
 
 #### Applying to Grad School
 
-Applying to grad school was pretty straightforward. The GRE felt like a piece of cake after the LSAT. I just needed to relearn high-school math (English major, remember?) and I was set. 
+Applying to grad school was pretty straightforward. The GRE felt like a piece of cake after the LSAT. I just needed to relearn high-school math (English major, remember?). 
 
 Few schools would accept me without a bachelor's in Computer Science. So that narrowed the field for me, in some ways a blessing. I applied to about five schools.
 
-Of the candidates, Brandeis seemed especially interesting. There, I could take remedial undergraduate classes while I did my Master's. And they had a strong Computational Linguistics program! They quickly took the lead as my top choice.
+Of the candidates, Brandeis was my top pick. There, I could take remedial undergraduate classes while I did my Master's. And they had a strong Computational Linguistics program to boot.
 
 My background actually made parts of the application very easy. Writing a personal statement? No problem. Verbal portion of the GRE? Forget about it. 
 
@@ -104,7 +104,7 @@ Brandeis was as great as Boston was cold.
 
 I spent my time learning Computer Science, surrounded by intelligent people who had similar interests. It was like paradise.
 
-Except for Discrete Math, that is. Everyone's got that one class where they struggle. But even tougher than the material was the imposter syndrome I felt. It was my first semester and, heck, I was just an English major. If I was already struggling, maybe I didn't belong in a Computer Science program?
+Except for Discrete Math, that is. Everyone's got that one class where they struggle. But even tougher than the material was the imposter syndrome I felt as a result. It was my first semester and, heck, I was just an English major. If I was already struggling, maybe I didn't belong in a Computer Science program? Surely I'd be exposed as a fraud.
 
 In the end, I managed to scrape out a hard-won B+. And boy was I grateful. I won't say it fully alleviated my imposter syndrome, but it was a good start.
 
@@ -122,9 +122,9 @@ Except it wasn't.
 
 The people at Ginger.io were patient and kind. But, to be frank, I was woefully underprepared. 
 
-I'd done very little collaborative programming. I was somewhat baffled by the command line, and _exceptionally_ baffled by git. I'd never even dreamed of a codebase that big. 
+I'd done very little collaborative programming. I was somewhat baffled by the command line, and _exceptionally_ baffled by git. I'd never even dreamed of a codebase bigger than a few files. 
 
-It was one of the most difficult periods of my life. I spent much of the summer trying to learn all the things software engineers take for granted—automated testing, development environments, version control, and so forth. I worked very slowly and I felt like I'd let the team down. It was doubly painful, since I cared deeply about the company's mission.
+It was one of the most difficult periods of my life. I spent much of the summer trying to learn all the things software engineers take for granted—automated testing, development environments, version control, architectural patterns, and so forth. I worked very slowly and I felt like I'd let the team down. It was doubly painful, since I cared deeply about the company's mission.
 
 #### Second Year at Brandeis
 
@@ -132,7 +132,7 @@ As difficult as it was, that summer at Ginger.io was transformative for my educa
 
 Suddenly, it was obvious which courses I should take. It was obvious which modules I needed to pay close attention to. I still managed to take a few Computational Linguistics courses, but I added other electives like Databases and Web Development. 
 
-As the year wound down, I felt vastly more prepared for professional software engineering than I had the previous summer.
+As the year wound down, I felt vastly more prepared for professional software engineering than I had the previous summer. Letting the challenges of my internship guide my education was one of the most effective things I've done.
 
 #### First Job: Practice Fusion
 
@@ -152,7 +152,7 @@ Unlike my internship, I felt like I had the skills to contribute to my team. Arm
 
 Since then, I've landed at Yelp. There, I've pushed features that millions of people use every day. I've even taken on the role of Engineering Manager. I lead the team that handles the Search experience. 
 
-My road to software engineering was long, difficult, and felt uncertain at every step. It took a series of great mentors, lucky breaks, and a level of perseverance that brought me to my limits routinely.
+My road to software engineering was long, difficult, and felt uncertain at every step. It took a series of great mentors, lucky breaks, and a level of perseverance that brought me to my limits often.
 
 But, for all that strife and uncertainty, I can't imagine another life that would make me happier. I do interesting work with great people, and have the opportunity to touch people's lives daily.
 
