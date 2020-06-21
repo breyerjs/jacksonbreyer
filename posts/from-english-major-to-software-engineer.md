@@ -1,6 +1,6 @@
 ---
 title: "From English Major to Software Engineer"
-date: "2020-06-14"
+date: "2020-06-20"
 description: "People are often surprised by my background. Here's how I took an untraditional path into the software industry."
 ---
 
