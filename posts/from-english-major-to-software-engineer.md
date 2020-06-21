@@ -6,7 +6,7 @@ description: "People are often surprised by my background. Here's how I took an 
 
 #### What's This?
 
-As an undergraduate I studied English, but since then I've taken an untraditional path into software engineering. Currently, I'm an Engineering Manager at Yelp. 
+I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. I'm currently an Engineering Manager at Yelp. 
 
 Over the years, I've gotten everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
 
