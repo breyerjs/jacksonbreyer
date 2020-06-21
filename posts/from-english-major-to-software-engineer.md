@@ -6,7 +6,7 @@ description: "People are often surprised by my background. Here's how I took an 
 
 #### What's This?
 
-I have an undergraduate English degree. Currently, I'm a Software Engineering Manager at Yelp. Over the years, I've gotten everything from curiosity to raised eyebrows to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
+I have an undergraduate English degree. Currently, I'm a Software Engineering Manager at Yelp. Over the years, I've gotten everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
 
 To be clear, _many_ software engineers have untraditional backgrounds. I'm not claiming to be unique in that respect. But hopefully someone out in the aether finds this post helpful. Or at least entertaining.
 
