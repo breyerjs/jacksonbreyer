@@ -55,7 +55,7 @@ I imagine these things are obvious to someone who goes to school for Computer Sc
 
 First, my programmer friends. I'm sure they got sick of my endless questions, but their help was invaluable. Working on your own, it's easy to get lost in StackOverflow posts and wind up dismayed. My friends kept me on track and cleared up a lot of confusing points. ("What's a constructor function?" "What's a list comprehension?") 
 
-Second, I found a fantastic e-book called [Invent Your Own Computer Games With Python](https://inventwithpython.com/invent4thed/). It's targted at an audience...much younger than I was. As a result, the writing is exceptionally clear and simple. Perfect for an absolute beginner with limited guidance. 
+Second, I found a fantastic e-book called [Invent Your Own Computer Games With Python](https://inventwithpython.com/invent4thed/). It's targeted at an audience...much younger than I was. As a result, the writing is exceptionally clear and simple. Perfect for an absolute beginner with limited guidance. 
 
 Armed with these tools, I wrote _lots_ of sloppy, beginner-style programs. My crowning glory was a dinky chatbot that had hard-coded responses to common phrases. Success was just around the corner.
 
@@ -92,7 +92,7 @@ Applying to grad school was pretty straightforward. The GRE felt like a piece of
 
 Few schools would accept me without a bachelor's in Computer Science. So that narrowed the field for me, in some ways a blessing. I applied to about five schools.
 
-Of the candidates, Brandeis seemed especially interesting. There, I could take remedial undergraduate classes while I did my Master's. And futher, they had a strong Computational Linguistics program! They quickly took the lead as my top choice.
+Of the candidates, Brandeis seemed especially interesting. There, I could take remedial undergraduate classes while I did my Master's. And they had a strong Computational Linguistics program! They quickly took the lead as my top choice.
 
 My background actually made parts of the application very easy. Writing a personal statement? No problem. Verbal portion of the GRE? Forget about it. 
 
@@ -102,9 +102,9 @@ After submitting the applications, I took a mid-summer trip to Boracay, a remote
 
 Brandeis was as great as Boston was cold.
 
-I spent my time learning Computer Science, surrounded by intelligent people who had similar interests! It was like paradise.
+I spent my time learning Computer Science, surrounded by intelligent people who had similar interests. It was like paradise.
 
-Except for Discrete Math, that is. Everyone's got that one class where they struggle. But even worse than the material was the imposter syndrome I felt. It was my first semester and, heck, I was just an English major. If I was already struggling, maybe I didn't belong in a Computer Science program?
+Except for Discrete Math, that is. Everyone's got that one class where they struggle. But even tougher than the material was the imposter syndrome I felt. It was my first semester and, heck, I was just an English major. If I was already struggling, maybe I didn't belong in a Computer Science program?
 
 In the end, I managed to scrape out a hard-won B+. And boy was I grateful. I won't say it fully alleviated my imposter syndrome, but it was a good start.
 
@@ -124,7 +124,7 @@ The people at Ginger.io were patient and kind. But, to be frank, I was woefully 
 
 I'd done very little collaborative programming. I was somewhat baffled by the command line, and _exceptionally_ baffled by git. I'd never even dreamed of a codebase that big. 
 
-It was one of the most difficult periods of my life. I spent much of the summer trying to learn all the things software engineers take for granted—automated testing, development environments, version control, and so forth. I worked very slowly and I felt like I'd let the team down. It was doubly painful, since I cared deeply about the comapany's mission.
+It was one of the most difficult periods of my life. I spent much of the summer trying to learn all the things software engineers take for granted—automated testing, development environments, version control, and so forth. I worked very slowly and I felt like I'd let the team down. It was doubly painful, since I cared deeply about the company's mission.
 
 #### Second Year at Brandeis
 
@@ -144,7 +144,7 @@ At first, I was frustrated that my role wasn't more user-facing. I wanted to bui
 
 But as I grew into it, I realized that the flexibility of my role was perfect for growing my skills. I got to do things I otherwise wouldn't have, like building a development environment, prototyping a database, and dabbling in frontend work.
 
-It helped that my team was great. I learned a lot from their comraderie, their pursuit of excellence, and their technical experience. 
+It helped that my team was great. I learned a lot from their camaraderie, their pursuit of excellence, and their technical experience. 
 
 Unlike my internship, I felt like I had the skills to contribute to my team. Armed with confidence, I dove into any project I could get my hands on, and I learned a _ton_. 
 
@@ -152,7 +152,7 @@ Unlike my internship, I felt like I had the skills to contribute to my team. Arm
 
 Since then, I've landed at Yelp. There, I've pushed features that millions of people use every day. I've even taken on the role of Engineering Manager. I lead the team that handles the Search experience. 
 
-My road to software engineering was long, difficult, and felt uncertain at every step. It took a series of great mentors and lucky breaks, along with a level of perseverence that brought me to my limits routinely.
+My road to software engineering was long, difficult, and felt uncertain at every step. It took a series of great mentors, lucky breaks, and a level of perseverance that brought me to my limits routinely.
 
 But, for all that strife and uncertainty, I can't imagine another life that would make me happier. I do interesting work with great people, and have the opportunity to touch people's lives daily.
 
