@@ -8,11 +8,9 @@ description: "People are often surprised by my background. Here's how I took an 
 
 I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. Years later, I'm working as an Engineering Manager at Yelp. 
 
-Over the years, I've gotten everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
+I've heard everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
 
-I'm also writing for those who might be considering a similar jump. Hopefully my story can give shed some light on the road ahead.
-
-To be clear, _many_ software engineers have untraditional backgrounds. I'm not claiming to be unique in that respect. But I hope someone finds this post useful, or at least entertaining.
+I'm also writing for those who might be considering a similar jump. Hopefully my story can shed some light on the road ahead.
 
 
 #### English Major
