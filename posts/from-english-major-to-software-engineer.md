@@ -8,9 +8,9 @@ description: "People are often surprised by my background. Here's how I took an 
 
 I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. Years later, I'm working as an Engineering Manager at Yelp. 
 
-I've heard everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
+I've heard everything from curiosity to outright scorn when people learn my background. 
 
-I'm also writing for those who might be considering a similar jump. Hopefully my story can shed some light on the road ahead.
+I'm writing for the curious, to share how I changed from one career to a very different one. I'm also writing for those who might be considering a similar jump. Hopefully my story can shed some light on the road ahead.
 
 
 #### English Major
@@ -138,7 +138,7 @@ As the year wound down, I felt vastly more prepared for professional software en
 
 #### Interviewing
 
-Much has been written about the software industry's interviewing practices. I won't dwell on that, except to say that it ain't no fun.
+Many people have written about the software industry's interviewing practices. I won't dwell on that, except to say that it ain't no fun.
 
 The process is long, emotionally fraught, and exhausting. As many as five or six separate interviews per company, where they can ask you to solve whatever problem they want. As a result, the questions can be very unpredictable. 
 
