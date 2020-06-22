@@ -6,7 +6,7 @@ description: "People are often surprised by my background. Here's how I took an 
 
 #### What's This?
 
-I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. I'm currently an Engineering Manager at Yelp. 
+I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. Years later, I'm working as an Engineering Manager at Yelp. As you'd imagine, the journey between those two periods of my life was intense.
 
 Over the years, I've gotten everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
 
@@ -23,7 +23,7 @@ As graduation approached, I realized that in order to make money, I would need a
 
 #### Law
 
-Law seemed like a good fit. It's highly analytical, meaningful, and interesting work. There is plenty of reading, writing, and picking apart complex narratives.
+Law seemed like a good fit. It's meaningful and interesting work. There is plenty of reading, writing, and picking apart complex narratives.
 
 But becoming a lawyer means law school, which is expensive and itself requires the LSAT. And the LSAT takes months of study in order to do well. I needed time to scope out the industry before committing all that money. 
 
@@ -31,7 +31,9 @@ So I became a paralegal. I worked at Cadwalader, Wickersham, and Taft (CWT), whi
 
 I had a productive first year at CWT. I got the LSAT score I needed, I secured some strong recommendations, and I feel like I got an excellent window into the industry. 
 
-After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle of the profession did _not_ appeal to me. I felt like I would need to change my personality to suit the profession, rather than being who I wanted to be. 
+After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle of the profession did _not_ appeal to me.
+
+As someone who self-identifies as "quirky" at minimum, I felt like I would need to drastically alter my personality to suit the profession. Even more frightening: I thought I might be capable of doing that. What a terrible fate.
 
 Back to square one. My paralegal job felt like a dead-end and law school felt like an expensive mistake. What to do?
 
@@ -45,7 +47,7 @@ I'd never programmed before, but...sure. Why not?
 
 So at 23-years-old, I wrote my first line of code. And let me tell you, when I saw "hello world" printed in the terminal, it was glorious. 
 
-Silly as it was, I was drunk with power. I could make the computer print out _anything_. In a strange way, I found programming similar to the creative/logical act of sentence diagramming, which I loved. So I was hooked. I started spending all of my free time programming. 
+Silly as it was, I was drunk with power. I could make the computer print out _anything_. In a strange way, I found programming similar to the creative / logical act of sentence diagramming, which I loved. So I was hooked. I started spending all of my free time programming. 
 
 #### Learn Programming
 
@@ -71,13 +73,15 @@ Any thoughts I had of giving up were promptly sidelined. I was _sure_ I could br
 
 #### What Sort of Education?
 
-Around this time, programming bootcamps had become very popular. They still are, as of this writing. 
+By whatever fortune, during that period I was blessed with clarity of vision. I was going to be a software engineer, full stop. I wanted to build the foundation for my life's professional work.
 
-And it's easy to understand their appeal. They teach you industry-relevant skills, they help you apply for jobs, and they promise to help you shift careers at supersonic speed: often in just a few months. Jiminy Cricket!
+Around this time, programming bootcamps had become very popular. I spent a long time weighing them against a traditional graduate school.
 
-I was very, very tempted to enroll in a bootcamp. But then I took a step back. My goal was to change careers _forever_. I wanted to build the foundation for my life's professional work. And by whatever fortune, during that period I was blessed with clarity of vision. I _was_ going to be a software engineer.
+It's easy to understand bootcamps' appeal. They teach you industry-relevant skills, they help you apply for jobs, and they promise to help you shift careers at supersonic speed: often in just a few months. 
 
-And...honestly, a bootcamp seemed like a risky play. Maybe it was the horror stories about poorly-run bootcamps. Maybe it was a personal bias towards traditional education. Maybe it was the impression I got online, that companies looked down on bootcamp graduates. Or that I'd miss out on theoretical aspects of Computer Science. 
+I thought for a long time about enrolling in a bootcamp. But, for whatever reason, it seemed risky. 
+
+Maybe it was the horror stories about poorly-run bootcamps. Maybe it was a personal bias towards traditional education. Maybe it was the impression I got online, that companies looked down on bootcamp graduates. Or a worry that I'd miss out on theoretical aspects of Computer Science. 
 
 Switching careers already felt risky, and I was desperate to reduce uncertainty. Bootcamps were out.
 
@@ -134,13 +138,21 @@ Suddenly, it was obvious which courses I should take. It was obvious which modul
 
 As the year wound down, I felt vastly more prepared for professional software engineering than I had the previous summer. Letting the challenges of my internship guide my education was one of the most effective things I've done.
 
+#### Interviewing
+
+Much has been written about the software industry's interviewing practices. I won't dwell on that, except to say that it ain't no fun.
+
+The process is long, emotionally wrought, and exhausting. As many as five or six separate interviews per company, where they can ask you to solve whatever problem they want. As a result, the questions can be very unpredictable. 
+
+And it's surprisingly hard to program while you describe what you're doing. I definitely found there to be a learning curve to the whole affair.
+
 #### First Job: Practice Fusion
 
 My first "real" job as a software engineer took me back to San Francisco. I'd loved the city and was raring for a second chance to prove myself in the industry.
 
-I was hired as a "Frameworks and Tools" engineer at Practice Fusion (PF). PF maintained a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine.
+PF maintains a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine. It was a smaller company, with maybe as many as 50 developers.
 
-At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
+I was hired as a "Frameworks and Tools" engineer at Practice Fusion (PF). We were given free range to fix developer pain points anywhere in the stack, with any tool we wanted. At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
 
 But as I grew into it, I realized that the flexibility of my role was perfect for growing my skills. I got to do things I otherwise wouldn't have, like building a development environment, prototyping a database, and dabbling in frontend work.
 
