@@ -6,13 +6,13 @@ description: "People are often surprised by my background. Here's how I took an 
 
 #### What's This?
 
-I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. Years later, I'm working as an Engineering Manager at Yelp. As you'd imagine, the journey between those two periods of my life was intense.
+I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. Years later, I'm working as an Engineering Manager at Yelp. 
 
 Over the years, I've gotten everything from curiosity to outright scorn when people learn my background. I'm writing for the curious, to share how I changed from one career to a very different one.
 
-I'm also writing for those who might be considering a similar jump. Hopefully my story can give some insight into the road ahead.
+I'm also writing for those who might be considering a similar jump. Hopefully my story can give shed some light on the road ahead.
 
-To be clear, _many_ software engineers have untraditional backgrounds. I'm not claiming to be unique in that respect. But hopefully someone out in the aether finds this post helpful. Or at least entertaining.
+To be clear, _many_ software engineers have untraditional backgrounds. I'm not claiming to be unique in that respect. But I hope someone finds this post useful, or at least entertaining.
 
 
 #### English Major
@@ -31,7 +31,7 @@ So I became a paralegal. I worked at Cadwalader, Wickersham, and Taft (CWT), whi
 
 I had a productive first year at CWT. I got the LSAT score I needed, I secured some strong recommendations, and I feel like I got an excellent window into the industry. 
 
-After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle of the profession did _not_ appeal to me.
+After all that, I was dismayed to admit: I didn't want to be a lawyer. While I liked many of the people I met at CWT, the lifestyle of the profession didn't appeal to me at all.
 
 As someone who self-identifies as "quirky" at minimum, I felt like I would need to drastically alter my personality to suit the profession. Even more frightening: I thought I might be capable of doing that. What a terrible fate.
 
@@ -142,7 +142,7 @@ As the year wound down, I felt vastly more prepared for professional software en
 
 Much has been written about the software industry's interviewing practices. I won't dwell on that, except to say that it ain't no fun.
 
-The process is long, emotionally wrought, and exhausting. As many as five or six separate interviews per company, where they can ask you to solve whatever problem they want. As a result, the questions can be very unpredictable. 
+The process is long, emotionally fraught, and exhausting. As many as five or six separate interviews per company, where they can ask you to solve whatever problem they want. As a result, the questions can be very unpredictable. 
 
 And it's surprisingly hard to program while you describe what you're doing. I definitely found there to be a learning curve to the whole affair.
 
@@ -150,7 +150,7 @@ And it's surprisingly hard to program while you describe what you're doing. I de
 
 My first "real" job as a software engineer took me back to San Francisco. I'd loved the city and was raring for a second chance to prove myself in the industry.
 
-PF maintains a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine. It was a smaller company, with maybe as many as 50 developers.
+PF maintains a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine. It was a small-but-mature company, with maybe as many as 50 developers.
 
 I was hired as a "Frameworks and Tools" engineer at Practice Fusion (PF). We were given free range to fix developer pain points anywhere in the stack, with any tool we wanted. At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
 
