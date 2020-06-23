@@ -10,7 +10,7 @@ I studied English as an undergraduate, but since then I've taken an untraditiona
 
 I've heard everything from curiosity to outright scorn when people learn my background. 
 
-I'm writing for the curious, to share how I changed from one career to a very different one. I'm also writing for those who might be considering a similar jump. Hopefully my story can shed some light on the road ahead.
+I'm writing for the curious, to share how I changed from one career to a very different one. I'm also writing for those who are considering a similar jump. Hopefully my story sheds some light on the road ahead.
 
 
 #### English Major
@@ -142,15 +142,15 @@ Many people have written about the software industry's interviewing practices. I
 
 The process is long, emotionally fraught, and exhausting. As many as five or six separate interviews per company, where they can ask you to solve whatever problem they want. As a result, the questions can be very unpredictable. 
 
-And it's surprisingly hard to program while you describe what you're doing. I definitely found there to be a learning curve to the whole affair.
+And it's surprisingly hard to program while you describe what you're doing. I found there to be a steep learning curve.
 
 #### First Job: Practice Fusion
 
 My first "real" job as a software engineer took me back to San Francisco. I'd loved the city and was raring for a second chance to prove myself in the industry.
 
-PF maintains a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine. It was a small-but-mature company, with maybe as many as 50 developers.
+I wound up at Practice Fusion (PF). PF maintains a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine. It was a small-but-mature company, with maybe as many as 50 developers.
 
-I was hired as a "Frameworks and Tools" engineer at Practice Fusion (PF). We were given free range to fix developer pain points anywhere in the stack, with any tool we wanted. At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
+I was hired as a "Frameworks and Tools". We were given free range to fix developer pain points anywhere in the stack, with any tool we wanted. At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
 
 But as I grew into it, I realized that the flexibility of my role was perfect for growing my skills. I got to do things I otherwise wouldn't have, like building a development environment, prototyping a database, and dabbling in frontend work.
 
