@@ -150,7 +150,7 @@ My first "real" job as a software engineer took me back to San Francisco. I'd lo
 
 I wound up at Practice Fusion (PF). PF maintains a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine. It was a small-but-mature company, with maybe as many as 50 developers.
 
-I was hired as a "Frameworks and Tools" engineer. We were given free range to fix developer pain points anywhere in the stack, with any tool we wanted. At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
+I was hired as a "Frameworks and Tools" engineer. We were given free rein to fix developer pain points anywhere in the stack, with any tool we wanted. At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
 
 But as I grew into it, I realized that the flexibility of my role was perfect for growing my skills. I got to do things I otherwise wouldn't have, like building a development environment, prototyping a database, and dabbling in frontend work.
 
