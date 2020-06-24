@@ -160,7 +160,7 @@ Unlike my internship, I felt like I had the skills to contribute to my team. Arm
 
 #### And Beyond
 
-Since then, I've landed at Yelp. There, I've pushed features that millions of people use every day. I've even taken on the role of Engineering Manager. I lead the team that handles the search experience, across Android, iOS, and web. 
+Since then, I've landed at Yelp. There, I've written features that millions of people use every day. I've even taken on the role of Engineering Manager. I lead the team that handles the search experience, across Android, iOS, and web. 
 
 My road to software engineering was long, difficult, and felt uncertain at every step. It took a series of great mentors, lucky breaks, and a level of perseverance that brought me to my limits often.
 
