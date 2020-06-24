@@ -148,7 +148,7 @@ And it's surprisingly hard to program while you describe what you're doing. I fo
 
 My first "real" job as a software engineer took me back to San Francisco. I'd loved the city and was raring for a second chance to prove myself in the industry.
 
-I wound up at Practice Fusion (PF). PF maintains a free electronic health record system. They're especially geared for smaller practices—the mom and pop shops of medicine. It was a small-but-mature company, with maybe as many as 50 developers.
+I wound up at Practice Fusion (PF). PF maintained a free electronic health record system. They were especially geared for smaller practices—the mom and pop shops of medicine. It was a small-but-mature company, with maybe as many as 50 developers.
 
 I was hired as a "Frameworks and Tools" engineer. We were given free rein to fix developer pain points anywhere in the stack, with any tool we wanted. At first, I was frustrated that my role wasn't more user-facing. I wanted to build software for people, dangit!
 
