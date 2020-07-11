@@ -8,7 +8,7 @@ description: "People are often surprised by my background. Here's how I took an 
 
 I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. Years later, I'm working as an Engineering Manager at Yelp. 
 
-I've heard everything from curiosity to outright scorn when people learn my background. 
+I've heard everything from curiosity to scorn when people learn my background. 
 
 I'm writing for the curious, to share how I changed from one career to a very different one. I'm also writing for those who are considering a similar jump. Hopefully my story sheds some light on the road ahead.
 
