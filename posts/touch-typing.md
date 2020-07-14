@@ -9,13 +9,13 @@ Until a few years ago, I was a point-and-peck typist. It wasn't too bad, I thoug
 
 I think we were taught touch typing in school, but I didn't pay attention during those lessons.
 
-At work, I got some good-natured teasing for looking silly when I typed. I used 3-4 fingers and my hands arced crazlily across the keyboard. 
+At work, I got some good-natured teasing for looking silly when I typed. I used 3-4 fingers and my hands arced crazily across the keyboard. 
 
 In some ways, it was a point of pride. One coworker exclaimed: "how do you even do that so quickly?" It's fun to be different.
 
 But many of the things I love require typing: notably, writing and programming. Both of those also require a lot of thought, which was the trouble.
 
-Point-and-peck takes a fair bit of attention. Attention I could be giving to my writing or programming. I forget the exact breaking point, but eventually I got fed up, frustrated that kept losing my train of thought.
+Point-and-peck takes a fair bit of attention. Attention I could be giving to my writing or programming. I forget the exact breaking point, but eventually I got fed up, frustrated that I kept losing my train of thought.
 
 I wasn't sure how much better touch typing would be, but it was worth a try.
 
