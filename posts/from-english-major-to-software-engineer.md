@@ -110,7 +110,7 @@ Except for Discrete Math, that is. Everyone's got that one class where they stru
 
 In the end, I managed to scrape out a hard-won B+. And boy was I relieved. I won't say it fully alleviated my imposter syndrome, but it was a good start.
 
-There were high points too, like the few Computational Linguistics classes I managed to sneak in. I've rarely had so much fun being challenged intellectually. Finally I was back to diagramming sentences, but now the computer did it for me.
+There were high points too, like the Computational Linguistics classes I took. I've rarely had so much fun being challenged intellectually. Finally I was back to diagramming sentences, but now the computer did it for me.
 
 #### Internship
 
