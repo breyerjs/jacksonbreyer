@@ -73,7 +73,7 @@ Any thoughts I had of giving up were promptly sidelined. I was _sure_ I could br
 
 By whatever fortune, during that period I was blessed with clarity of vision. I was going to be a software engineer, full stop. I wanted to build the foundation for my life's professional work.
 
-Around this time, programming bootcamps had become very popular. I spent a long time weighing them against a traditional graduate school.
+Programming bootcamps had become very popular, and I spent a long time weighing them against a traditional graduate school.
 
 It's easy to understand bootcamps' appeal. They teach you industry-relevant skills, they help you apply for jobs, and they promise to help you shift careers at supersonic speed: often in just a few months. 
 
