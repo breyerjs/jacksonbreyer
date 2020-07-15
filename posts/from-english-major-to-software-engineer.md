@@ -108,9 +108,9 @@ I spent my time learning Computer Science, surrounded by intelligent people who 
 
 Except for Discrete Math, that is. Everyone's got that one class where they struggle. But even tougher than the material was the imposter syndrome I felt as a result. It was my first semester and, heck, I was just an English major. If I was already struggling, maybe I didn't belong in a Computer Science program? Surely I'd be exposed as a fraud.
 
-In the end, I managed to scrape out a hard-won B+. And boy was I grateful. I won't say it fully alleviated my imposter syndrome, but it was a good start.
+In the end, I managed to scrape out a hard-won B+. And boy was I relieved. I won't say it fully alleviated my imposter syndrome, but it was a good start.
 
-There were high points too. Like the few Computational Linguistics classes I managed to sneak in. Boy were they fun. Finally I was back to diagramming sentences, but now the computer did it for me.
+There were high points too, like the few Computational Linguistics classes I managed to sneak in. I've rarely had so much fun being challenged intellectually. Finally I was back to diagramming sentences, but now the computer did it for me.
 
 #### Internship
 
