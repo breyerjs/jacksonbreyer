@@ -75,7 +75,7 @@ By whatever fortune, during that period I was blessed with clarity of vision. I 
 
 Programming bootcamps had become very popular, and I spent a long time weighing them against a traditional graduate school.
 
-It's easy to understand bootcamps' appeal. They teach you industry-relevant skills, they help you apply for jobs, and they promise to help you shift careers at supersonic speed: often in just a few months. 
+It's easy to understand bootcamps' appeal. They teach you industry-relevant skills, help you apply for jobs, and promise that you can shift careers at supersonic speed: often in just a few months. 
 
 I thought for a long time about enrolling in a bootcamp. But, for whatever reason, it seemed risky. 
 
