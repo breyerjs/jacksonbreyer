@@ -7,11 +7,9 @@ description: "I was annoyed that my typing was slow, so I taught myself to touch
 #### Enough's Enough
 Until a few years ago, I was a point-and-peck typist. It wasn't too bad, I thought. Sure, I made a lot of mistakes. And I had to stare at the keyboard when I typed. But with years of practice, I could putter along at a decent speed. Maybe 30-40 words per minute?
 
-I think we were taught touch typing in school, but I didn't pay attention during those lessons.
+We were taught touch typing in school, but I didn't pay attention during those lessons.
 
-At work, I got some good-natured teasing for looking silly when I typed. I used 3-4 fingers and my hands arced crazily across the keyboard. 
-
-In some ways, it was a point of pride. One coworker exclaimed: "how do you even do that so quickly?" It's fun to be different.
+Later on, coworkers would tease me good-naturedly about it: 3-finger point-and-peck is not a graceful maneuver. Though in some ways, it was a point of pride. One coworker exclaimed: "how do you even do that so quickly?" It's fun to be different.
 
 But many of the things I love require typing: notably, writing and programming. Both of those also require a lot of thought, which was the trouble.
 
@@ -35,7 +33,7 @@ Typing tests were perfect for this, but it's boring to type the same passage ove
 
 Admittedly, this is an effective strategy if you want to feel like a giant nerd. But it also had an incredible effect on my touch typing. My WPM (words per minute) shot up, and I found myself "slipping into" touch typing, even when programming. 
 
-After a month of this, touch typing felt faster and easier than point-and-peck. My WPM was 50-60, faster than it's ever been. And it's only gotten better since. Now, I exclusively touch type. 
+After a month of this, touch typing felt faster and easier than point-and-peck. My WPM was 50-60, faster than it had ever been. And it's only gotten better since. Now, I exclusively touch type. 
 
 #### So What?
 

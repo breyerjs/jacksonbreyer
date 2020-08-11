@@ -114,7 +114,7 @@ There were high points too, like the Computational Linguistics classes I took. I
 
 #### Internship
 
-That summer, I was lucky to get an internship with Ginger.io, out in mythical San Francisco. I'd never been to SF, and didn't know much about Ginger.io. But on paper, it was perfect. 
+That summer, I was lucky to get an internship with Ginger.io, out in mythical San Francisco. I'd never been to SF and didn't know much about Ginger.io. But on paper, it was perfect.
 
 Ginger.io was a small-ish startup, with ~20 engineers. Their goal was to provide mental healthcare to people without the usual means of access—something I'm personally passionate about. 
 
