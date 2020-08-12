@@ -34,7 +34,7 @@ const About = (props) => {
 
                     <div className={'aboutSection'}>
                         <div className={'heading'}>Professional Interests:</div>
-                        <div className={'content'}>Databases, Engineering Management, Feature Analysis and Experimentation, Full-Stack Web Development, Natural Language Processing, Search</div>
+                        <div className={'content'}>Databases, Engineering Management and Leadership, Feature Analysis and Experimentation, Full-Stack Web Development, Natural Language Processing, Search</div>
                     </div>
                 </div>
             </Layout>
