@@ -1,5 +1,5 @@
 ---
-title: "First Drafts"
+title: "Sand in the Box, Then Castles"
 date: "2020-09-06"
 description: "Learning to accept intermediary imperfection."
 ---
