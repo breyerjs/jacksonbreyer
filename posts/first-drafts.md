@@ -16,7 +16,7 @@ A little over a year ago, I gave myself a push—I joined a writing group and ki
 
 Well, I've written most of a draft now and that won't be happening. It's definitely not publishable in its current form.
 
-I realized this early on, maybe halfway through. That realization made for a lonely stretch of the journey. I was very tempted to quit—I had failed, right? 
+I realized this early on, maybe halfway through the draft. Character arcs are half-developed. Some of the world-building needs deeper thought. It's readable, but not what I'd hoped it would be. Facing that was tough, and I was very tempted to quit. I had failed, right? 
 
 Fortunately, my writing group gave me just enough motivation to question giving up.
 
@@ -28,6 +28,6 @@ I was very taken with that. It was a way to understand what I was doing and view
 
 I think that's the trouble with huge undertakings. They take a long time to resemble what you envision. When the intermediary stages are messy and progress is slow, it's easy to be discouraged. For me, viewing the mess as—well, not just "okay", but _good_. That was a crucial shift in mindset.
 
-I had a similar situation at work, actually. We're starting to re-architect a huge, ancient piece of code. It will likely take months or even years. And I found that it inspired similar concerns to the ones I had when I started writing the novel. What if...what if we draft up a refactor and it's not great? How should we view early brainstorms during this process?
+I had a similar situation at work, actually. We're starting to re-architect a huge, ancient piece of code. It will likely take months or even years. And I found that it inspired in people similar concerns that I had when I started writing the novel. What if...what if we draft up a re-architecture and it's not great? How should we view early brainstorms during this process?
 
-Again, it was helpful to emphasize: sand in the box now. Sand-castles later. Words to live by.
+Again, it was helpful to emphasize: sand in the box now. Sand-castles later.
