@@ -18,7 +18,7 @@ Well, I've written most of a draft now and that won't be happening. It's definit
 
 I realized this early on, maybe halfway through. That realization made for a lonely stretch of the journey. I was very tempted to quit—I had failed, right? 
 
-Fortnately, my writing group gave me just enough motivation to question giving up.
+Fortunately, my writing group gave me just enough motivation to question giving up.
 
 So I googled. What did other authors have to say about first drafts? How the heck are you supposed to write these things, anyway? Doing so, I ran across a quote from Shannon Hale. It went like this:
 
