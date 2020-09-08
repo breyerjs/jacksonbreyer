@@ -8,7 +8,7 @@ For the longest time, I couldn't bring myself to start writing a novel.
 
 Don't get me wrong. I _want_ to write a novel. I've got an informal checklist of things to accomplish during my lifetime. Writing a novel is on the list.
 
-No, I couldn't begin writing a novel because I was fearful that it wouldn't turn out well. That it would validate deeper fears about the quality of my own writing. That it would cross me off some cosmic list of potential authors. 
+No, I couldn't begin writing a novel because I was worried that it wouldn't turn out well. That it would validate deeper fears about the quality of my own writing. That it would cross me off some cosmic list of potential authors. 
 
 I admit, these are silly fears. But I suspect they're not uncommon.
 
