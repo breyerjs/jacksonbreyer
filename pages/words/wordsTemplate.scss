@@ -1,6 +1,17 @@
+// Styling for an individual post
+
 .postTitle {
-    font-size: 24px;
-    margin-bottom: 0.5em;
+    font-family: 'Spectral Medium', serif;
+    font-size: 26px;
+}
+
+// This is the markdown header I use
+h4 {
+    font-family: 'Spectral Medium', serif;
+}
+
+.postDate {
+    font-size: 18px;
 }
 
 .postHeader {

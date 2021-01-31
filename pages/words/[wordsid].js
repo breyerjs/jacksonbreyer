@@ -17,7 +17,7 @@ export default function WordsTemplate(props) {
             <Layout>
                 <div className={'postHeader'}>
                     <div className={'postTitle'}>{frontmatter.title}</div>
-                    {frontmatter.date}
+                    <div className={'postDate'}>{frontmatter.date}</div>
                 </div>
                 <ReactMarkdown source={markdownBody} />
             </Layout>

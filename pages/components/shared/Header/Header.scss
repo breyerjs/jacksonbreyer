@@ -2,7 +2,7 @@
 
 .headerContainer {
     margin-bottom: 3.5em;
-    padding-top: 4em;
+    padding-top: 3.5em;
 }
 
 .title {
@@ -15,7 +15,8 @@
 .avatar {
     height: 55px;
     width: 55px;
-    padding-right: 2em;
+    padding-right: 1.5em;
+    cursor: pointer;
 }
 
 
@@ -26,8 +27,8 @@
 }
 
 .navItem {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: .75em;
+    margin-right: .75em;
     text-decoration: none;
     display: flex;
     flex-wrap: nowrap;
