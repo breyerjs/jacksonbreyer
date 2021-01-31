@@ -6,13 +6,17 @@
 
 @font-face {
     font-family: 'Spectral';
-    src: url(/font/Spectral/Spectral-Regular.ttf) format('truetype');
+    src: url('/font/Spectral/Spectral-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spectral Medium';
+    src: url('/font/Spectral/Spectral-Medium.ttf') format('truetype');
 }
 
 /* Global styles */
 html, body {
     font-family: 'Spectral', serif;
-    font-display: auto;
     line-height: 1.35; 
     font-size: 18px;
     
