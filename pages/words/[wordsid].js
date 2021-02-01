@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import Header from '../components/shared/Header/Header';
 import Layout from '../components/shared/Layout/Layout';
+import moment from 'moment';
 
 import styles from './wordsTemplate.scss';
 
@@ -17,7 +18,9 @@ export default function WordsTemplate(props) {
             <Layout>
                 <div className={'postHeader'}>
                     <div className={'postTitle'}>{frontmatter.title}</div>
-                    <div className={'postDate'}>{frontmatter.date}</div>
+                    <div className={'postDate'}>
+                        {moment(frontmatter.date).format('MMMM Do, YYYY')}
+                    </div>
                 </div>
                 <ReactMarkdown source={markdownBody} />
             </Layout>

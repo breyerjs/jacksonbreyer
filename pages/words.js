@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from './components/shared/Header/Header';
 import Layout from './components/shared/Layout/Layout';
 import matter from 'gray-matter';
+import moment from 'moment';
 import styles from './words.scss'
 
 
@@ -26,7 +27,9 @@ const createWordsEntry = (post) => {
             <Link href={'words/[wordsid]'} as={`/words/${post.slug}`}> 
                 <a className={'entryTitle'}> {post.frontmatter.title} </a> 
             </Link>
-            <div className={'entryDate'}>{post.frontmatter.date}</div>
+            <div className={'entryDate'}>
+              {moment(post.frontmatter.date).format('MMMM Do, YYYY')}
+            </div>
             <div>{post.frontmatter.description}</div>
         </div>
     );
