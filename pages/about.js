@@ -11,9 +11,9 @@ const About = (props) => {
             <Layout>
 
                 <div className={'intro'}>
-                    <p>I had an English degree and was working as a paralegal when I realized that I wanted something different. So I taught myself to program, went back to grad school, and now I'm an Engineering Manager at Yelp.</p> 
-                    
-                <p>If you're interested in that journey, check out  <Link href={'words/[wordsid]'} as={'/words/from-english-major-to-software-engineer'}>this blog post</Link> I wrote about it.</p>
+                    <p>I'm an Engineering Manager at Yelp. There, I lead the team responsible for Search Experience across Android, iOS and Web.</p>
+
+                    <p>I haven't always worked in tech. I had an English degree and was working as a paralegal when I realized that I wanted a change. So I taught myself to program before going back to earn a Master's degree in Computer Science. If you're interested in that journey, check out  <Link href={'words/[wordsid]'} as={'/words/from-english-major-to-software-engineer'}>this blog post</Link> I wrote about it.</p>
                 </div>
 
                 <div className={'aboutItems'}>
