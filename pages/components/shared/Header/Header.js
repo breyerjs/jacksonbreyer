@@ -37,13 +37,11 @@ export default function Header(props) {
         );
     };
     
-    const avatar = <Link href={'/'} key={'/'}> 
-                        <img 
-                            className={'avatar'} 
-                            alt={'avatar'} 
-                            src={require('../../../../public/avatar-700x700.jpeg')} 
-                        />
-                    </Link>
+    const avatar = <img 
+                        className={'avatar'} 
+                        alt={'avatar'} 
+                        src={require('../../../../public/avatar-700x700.jpeg')} 
+                    />
     return (
         <div className={'headerContainer'}>
             <div className={'wwwTitleRow'}>
