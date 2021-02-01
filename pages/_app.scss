@@ -14,6 +14,11 @@
     src: url(/font/Spectral/Spectral-Medium.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Spectral Light';
+    src: url(/font/Spectral/Spectral-Light.ttf) format('truetype');
+}
+
 /* Global styles */
 html, body {
     font-family: 'Spectral', serif;
