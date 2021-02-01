@@ -41,7 +41,7 @@ export default function Header(props) {
                         <img 
                             className={'avatar'} 
                             alt={'avatar'} 
-                            src={require('../../../../public/avatar.png')} 
+                            src={require('../../../../public/avatar-700x700.jpeg')} 
                         />
                     </Link>
     return (
