@@ -6,9 +6,11 @@
 }
 
 // This is the markdown header I use
-h4 {
-    font-family: 'Spectral Medium', serif;
-    font-size: 18px;
+.markdownBody {
+    h4{
+        font-family: 'Spectral Medium', serif;
+        font-size: 18px;
+    }
 }
 
 .postDate {

@@ -4,7 +4,7 @@ import Header from './components/shared/Header/Header';
 import Layout from './components/shared/Layout/Layout';
 import matter from 'gray-matter';
 import moment from 'moment';
-import styles from './words.scss'
+import styles from './words.module.scss'
 
 
 const Words = (props) => {
@@ -23,11 +23,11 @@ const Words = (props) => {
 
 const createWordsEntry = (post) => {
     return (
-        <div className={'postEntry'} key={post.slug}>
+        <div className={styles.postEntry} key={post.slug}>
             <Link href={'words/[wordsid]'} as={`/words/${post.slug}`}> 
-                <a className={'entryTitle'}> {post.frontmatter.title} </a> 
+                <a className={styles.entryTitle}> {post.frontmatter.title} </a> 
             </Link>
-            <div className={'entryDate'}>
+            <div className={styles.entryDate}>
               {moment(post.frontmatter.date).format('MMMM Do, YYYY')}
             </div>
             <div>{post.frontmatter.description}</div>

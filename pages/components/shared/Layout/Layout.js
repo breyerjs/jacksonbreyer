@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Layout.scss';
+import styles from './Layout.module.scss';
 import ReactGA from 'react-ga';
 
 class Layout extends React.Component{
@@ -11,8 +11,8 @@ class Layout extends React.Component{
 
     render(){
         return (
-            <div className={'layoutContainer'}>
-                <div className={'contentContainer'}>
+            <div className={styles.layoutContainer}>
+                <div className={styles.contentContainer}>
                     {this.props.children}
                 </div>
             </div>

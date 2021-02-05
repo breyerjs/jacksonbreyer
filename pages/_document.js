@@ -1,11 +1,11 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, {Html, Head, Main, NextScript } from 'next/document';
 import Link from "next/link";
 import React from 'react';
 
 class CustomDocument extends Document {
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           {/* Load this font early since it isn't used until later on */}
           <link 
@@ -25,7 +25,7 @@ class CustomDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

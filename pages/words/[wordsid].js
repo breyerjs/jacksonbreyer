@@ -5,7 +5,7 @@ import Header from '../components/shared/Header/Header';
 import Layout from '../components/shared/Layout/Layout';
 import moment from 'moment';
 
-import styles from './wordsTemplate.scss';
+import styles from './wordsTemplate.module.scss';
 
 
 
@@ -16,13 +16,13 @@ export default function WordsTemplate(props) {
         <div>
             <Header titleText={'Jackson Breyer'} subheader={"sometimes writes down his thoughts"} />
             <Layout>
-                <div className={'postHeader'}>
-                    <div className={'postTitle'}>{frontmatter.title}</div>
-                    <div className={'postDate'}>
+                <div className={styles.postHeader}>
+                    <div className={styles.postTitle}>{frontmatter.title}</div>
+                    <div className={styles.postDate}>
                         {moment(frontmatter.date).format('MMMM Do, YYYY')}
                     </div>
                 </div>
-                <ReactMarkdown source={markdownBody} />
+                <ReactMarkdown className={styles.markdownBody} source={markdownBody} />
             </Layout>
         </div>
     );
