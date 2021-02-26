@@ -48,8 +48,6 @@ export default function Header(props) {
     return (
         <div className={styles.headerContainer}>
             <div className={styles.wwwTitleRow}>
-                {avatar} 
-                <span className={styles.avatarPadding}></span>
                 <span className={styles.title}> {props.titleText} </span>
                 <div className={styles.navItemGroup}>
                     {pages.map((page) => generateNavLink(page))}

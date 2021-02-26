@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import Header from '../components/shared/Header/Header';
 import Layout from '../components/shared/Layout/Layout';
+import Link from 'next/link';
 import moment from 'moment';
 
 import styles from './wordsTemplate.module.scss';
@@ -14,15 +15,21 @@ export default function WordsTemplate(props) {
     const markdownBody = props.markdownBody;
     return(
         <div>
-            <Header titleText={'Jackson Breyer'} subheader={"sometimes writes down his thoughts"} />
             <Layout>
+            <div className={styles.goBackLink}>
+                <Link href={'/words'} key={'/words'}> 
+                    <a className={styles.backLinkText}> 
+                        {'Return to list'} 
+                    </a> 
+                </Link>
+            </div>
                 <div className={styles.postHeader}>
                     <div className={styles.postTitle}>{frontmatter.title}</div>
-                    <div className={styles.postDate}>
-                        {moment(frontmatter.date).format('MMMM Do, YYYY')}
-                    </div>
                 </div>
                 <ReactMarkdown className={styles.markdownBody} source={markdownBody} />
+                <div className={styles.postDate}>
+                    —{moment(frontmatter.date).format('MMMM Do, YYYY')}
+                </div>
             </Layout>
         </div>
     );

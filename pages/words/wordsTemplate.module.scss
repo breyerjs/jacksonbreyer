@@ -1,23 +1,35 @@
 // Styling for an individual post
 
 .postTitle {
-    font-family: 'Spectral Medium', serif;
-    font-size: 26px;
+    font-family: 'Iowan Old Style', serif;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 // This is the markdown header I use
 .markdownBody {
     h4{
-        font-family: 'Spectral Medium', serif;
-        font-size: 18px;
+        font-family: 'Iowan Old Style', serif;
+        font-size: 17px;
     }
 }
 
 .postDate {
-    font-family: 'Spectral Light', serif;
-    font-size: 16px;
+    padding-top: 1em;
+    font-family: 'Iowan Old Style', serif;
+    font-size: 17px;
 }
 
 .postHeader {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
+}
+
+.goBackLink {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.backLinkText {
+    color: #8a8a8a !important; 
+    font-size: 17px;
 }

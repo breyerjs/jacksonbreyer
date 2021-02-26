@@ -4,7 +4,6 @@ date: "2020-06-20"
 description: "People are often surprised by my background. Here's how I took an untraditional path into the software industry."
 ---
 
-#### What's This?
 
 I studied English as an undergraduate, but since then I've taken an untraditional path into software engineering. Years later, I'm working as an Engineering Manager at Yelp. 
 
