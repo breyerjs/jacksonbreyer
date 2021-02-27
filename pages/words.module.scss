@@ -1,21 +1,21 @@
 // Styling for the list of posts
 
 .postEntry {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.0em;
     display: flex;
     color: #333333 !important;
 }
 
 .postDate {
     font-size: 15px;
-    color: #8a8a8a;
+    color: #717171;
 }
 
 .separator {
-    border-bottom: 1px dotted #333333;
+    border-bottom: 1px dotted #717171;
     opacity: .25;
     flex-grow: 3;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     height: 1em;
 }
