@@ -23,7 +23,7 @@ const Words = (props) => {
 
 const createWordsEntryNew = (post) => {
   return (
-      <Link href={'words/[wordsid]'} as={`/words/${post.slug}`}> 
+      <Link href={'words/[wordsid]'} as={`/words/${post.slug}`} key={post.slug}> 
         <a className={styles.postEntry}>
             <span> {post.frontmatter.title} </span>
             <span className={styles.separator} />
