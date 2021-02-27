@@ -13,7 +13,7 @@ const About = (props) => {
                 <div className={styles.intro}>
                     <p>I'm an Engineering Manager at Yelp. There, I lead the team responsible for Search Experience across Android, iOS and Web.</p>
 
-                    <p>I haven't always focused on technology. I had an English degree and was working as a paralegal when I realized that I wanted a change. So I taught myself to program before going back to earn a Master's degree in Computer Science. If you're interested in that journey, check out  <Link href={'words/[wordsid]'} as={'/words/from-english-major-to-software-engineer'}>this blog post</Link> I wrote about it.</p>
+                    <p>I haven't always worked in technology. If you're curious about my background, here's  <Link href={'words/[wordsid]'} as={'/words/from-english-major-to-software-engineer'}>a blog post</Link> I wrote.</p>
                 </div>
 
                 <div className={styles.aboutItems}>
@@ -28,7 +28,7 @@ const About = (props) => {
                     </div>
 
                     <div className={styles.aboutSection}>
-                        <div className={styles.heading}>Languages & Frameworks:</div>
+                        <div className={styles.heading}>Languages:</div>
                         <div className={styles.content}>Many. Especially with a Python/Javascript focus. But I've worked all over the place.</div>
                     </div>
 
