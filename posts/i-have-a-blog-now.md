@@ -1,5 +1,5 @@
 ---
-title: "I Have a Blog Now"
+title: "I have a blog now"
 date: "2020-06-13"
 description: "Finally got around to setting up my blog. This is just a quick hello."
 ---

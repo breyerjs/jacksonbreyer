@@ -55,7 +55,6 @@ export default function Header(props) {
             </div>
 
             <div className={styles.mobileTitleRow}>
-                {avatar}
                 <span className={styles.title}> {props.titleText} </span>
                 <div className={styles.lineBreak}></div>
                 <div className={styles.navItemGroup}>

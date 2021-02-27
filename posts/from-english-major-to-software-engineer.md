@@ -1,5 +1,5 @@
 ---
-title: "From English Major to Software Engineer"
+title: "From english major to software engineer"
 date: "2020-06-20"
 description: "People are often surprised by my background. Here's how I took an untraditional path into the software industry."
 ---

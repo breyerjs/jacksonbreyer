@@ -1,5 +1,5 @@
 ---
-title: "Sand in the Box, Then Castles"
+title: "Sand in the box, then castles"
 date: "2020-09-06"
 description: "Learning to accept intermediary imperfection."
 ---

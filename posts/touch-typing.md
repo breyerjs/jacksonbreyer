@@ -1,5 +1,5 @@
 ---
-title: "Touch Typing is Worthwhile"
+title: "Touch typing is worthwhile"
 date: "2020-07-11"
 description: "I was annoyed that my typing was slow, so I taught myself to touch type. And what a change it's been."
 ---

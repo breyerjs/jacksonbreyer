@@ -15,24 +15,24 @@ const Words = (props) => {
         <div>
             <Header titleText={'Jackson Breyer'} subheader={"sometimes writes down his thoughts"} />
             <Layout>
-                {postList.map( (post) => createWordsEntry(post))}
+                {postList.map( (post) => createWordsEntryNew(post))}
             </Layout>
         </div>
     );
 };
 
-const createWordsEntry = (post) => {
-    return (
-        <div className={styles.postEntry} key={post.slug}>
-            <Link href={'words/[wordsid]'} as={`/words/${post.slug}`}> 
-                <a className={styles.entryTitle}> {post.frontmatter.title} </a> 
-            </Link>
-            <div className={styles.entryDate}>
-              {moment(post.frontmatter.date).format('MMMM Do, YYYY')}
-            </div>
-            <div>{post.frontmatter.description}</div>
-        </div>
-    );
+const createWordsEntryNew = (post) => {
+  return (
+      <Link href={'words/[wordsid]'} as={`/words/${post.slug}`}> 
+        <a className={styles.postEntry}>
+            <span> {post.frontmatter.title} </span>
+            <span className={styles.separator} />
+            <span className={styles.postDate}> 
+              {moment(post.frontmatter.date).format('MMM Do, YYYY')} 
+            </span>
+        </a>
+      </Link>
+  );
 }
 
 export async function getStaticProps() {
