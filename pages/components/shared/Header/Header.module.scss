@@ -7,10 +7,9 @@
 
 .title {
     font-family: 'Iowan Old Style', serif;
-    // font-weight: bold;
-    font-size: 38px;
-    padding-left: 1.5em;
-    padding-right: 5em;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 6.5em;
     white-space: nowrap;
 }
 
@@ -26,8 +25,7 @@
 }
 
 .navItem {
-    margin-left: .75em;
-    margin-right: .75em;
+    margin-left: 1.5em;
     text-decoration: none;
     display: flex;
     flex-wrap: nowrap;
@@ -49,8 +47,8 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-end;
-    justify-content: center;
 }
+
 
 // Hides the www header if the screen is too narrow
 @media only screen and (max-width: 759px) {

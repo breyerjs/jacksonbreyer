@@ -13,8 +13,8 @@ const Words = (props) => {
     postList.sort((a, b) => a.frontmatter.date > b.frontmatter.date ? -1 : 1 );
     return(
         <div>
-            <Header titleText={'Jackson Breyer'} subheader={"sometimes writes down his thoughts"} />
             <Layout>
+                <Header titleText={'Jackson Breyer'} subheader={"sometimes writes down his thoughts"} />
                 {postList.map( (post) => createWordsEntryNew(post))}
             </Layout>
         </div>

@@ -4,26 +4,11 @@
 //     src: url(/font/DINPro.otf) format('opentype');
 // }
 
-@font-face {
-    font-family: 'Spectral';
-    src: url(/font/Spectral/spectral-regular.woff2) format('woff2');
-}
+// @font-face {
+//     font-family: 'Iowan Old Style';
+//     src: url(/font/IowanOldStBTRoman.ttf) format('truetype');
+// }
 
-@font-face {
-    font-family: 'Iowan Old Style';
-    src: url(/font/IowanOldStBTRoman) format('truetype');
-}
-
-
-@font-face {
-    font-family: 'Spectral Medium';
-    src: url(/font/Spectral/spectral-medium.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: 'Spectral Light';
-    src: url(/font/Spectral/spectral-light.woff2) format('woff2');
-}
 
 /* Global styles */
 html, body {

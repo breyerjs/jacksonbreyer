@@ -7,9 +7,8 @@ import styles from './about.module.scss';
 const About = (props) => {
     return(
         <div>
-            <Header titleText={'Jackson Breyer'} subheader={"knows some technologies"} />
             <Layout>
-
+                <Header titleText={'Jackson Breyer'} subheader={"knows some technologies"} />
                 <div className={styles.intro}>
                     <p>I'm an Engineering Manager at Yelp. There, I lead the team responsible for Search Experience across Android, iOS and Web.</p>
 
