@@ -31,10 +31,29 @@ section {
     height: 100%;
 }
 
+// Global Links
 a {
-    color: #549dc4 !important;
     text-decoration: none;
 }
+
+// Links in context
+p>a {
+    background: linear-gradient(to right, #fdf18166, #fff384e6);
+    background-size: 300% 40%;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    padding: 0;
+    border-radius: 8px;
+}
+p>a:hover {
+    background: linear-gradient(to right, #ffe60090, #ffe600);
+    background-size: 300% 40%;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    padding: 0;
+}
+
+
 
 a:visited {
     color: black;
