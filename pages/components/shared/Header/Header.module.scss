@@ -81,7 +81,11 @@
 
 .mobileTitleRow > .navItemGroup {
     padding-top: 1em;
-    padding-left: 4em;
+    // Removes the margin from the first nav item. 
+    //Flushes it left in alginment with the title.
+    :first-child {
+        margin-left: 0px;
+    }
 }
 
 .lineBreak {

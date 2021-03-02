@@ -38,13 +38,6 @@ export default function Header(props) {
         );
     };
     
-    const avatar = <Image 
-                        alt={'avatar'} 
-                        src={'/avatar-700x700.jpeg'} 
-                        height={55}
-                        width={55}
-                        className={styles.avatar}
-                    />
     return (
         <div className={styles.headerContainer}>
             <div className={styles.wwwTitleRow}>
