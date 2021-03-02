@@ -11,6 +11,7 @@ class Layout extends React.Component{
 
     render(){
         return (
+            // TODO: replace this with CSS Grid
             <div className={styles.layoutContainer}>
                 <div className={styles.contentContainer}>
                     {this.props.children}

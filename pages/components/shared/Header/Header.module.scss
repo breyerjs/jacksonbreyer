@@ -13,11 +13,6 @@
     white-space: nowrap;
 }
 
-.avatarPadding {
-    padding-right: 1.5em;
-}
-
-
 .navItemGroup {
     display: flex;
     flex-wrap: nowrap;
@@ -66,12 +61,6 @@
 // Hides the mobile header if the screen is too wide
 @media only screen and (min-width: 760px) {
     .mobileTitleRow { display: none; }
-}
-
-// Add padding to the avatar if mobile viewer
-.mobileTitleRow > .avatar {
-    padding-left: 1em;
-    padding-right: 1em;
 }
 
 // Remove padding btwn title and nav when in mobile window
