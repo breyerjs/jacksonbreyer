@@ -56,7 +56,7 @@ First, my programmer friends. I'm sure they got sick of my endless questions, bu
 
 Second, I found a fantastic e-book called [Invent Your Own Computer Games With Python](https://inventwithpython.com/invent4thed/). It's targeted at an audience...much younger than I was. As a result, the writing is exceptionally clear and simple. Perfect for an absolute beginner with limited guidance. 
 
-Armed with these tools, I wrote _lots_ of sloppy, beginner-style programs. My crowning glory was a dinky chatbot that had hard-coded responses to common phrases. Success was just around the corner.
+Armed with these tools, I wrote dozens of sloppy, rudimentary programs. Notably, I made a "chatbot" with hard-coded responses to common phrases. I was so proud of that, and success felt like it was just around the corner.
 
 Except it wasn't.
 
