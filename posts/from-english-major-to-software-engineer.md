@@ -60,7 +60,7 @@ Armed with these tools, I wrote dozens of sloppy, rudimentary programs. Notably,
 
 Except it wasn't.
 
-I sent out a blizzard of internship applications, and every single one was rejected. It was a seemingly endless stream: rejection after rejection after rejection. I even got rejected from Yelp, where I currently work.
+I sent out a blizzard of internship applications, and every single one was rejected. It was a seemingly endless stream: rejection after rejection after rejection. I was even rejected from Yelp, where I currently work.
 
 Around this time, a well-meaning acquaintance told me that I should give up trying to be a software engineer. It was too hard, there was too much math, and didn't I know? Software Engineers were _really_ smart.  
 
@@ -105,7 +105,7 @@ Brandeis was as great as Boston was cold.
 
 I spent my time learning Computer Science, surrounded by intelligent people who had similar interests. It was like paradise.
 
-Except for Discrete Math, that is. Everyone's got that one class where they struggle. But even tougher than the material was the imposter syndrome I felt as a result. It was my first semester and, heck, I was just an English major. If I was already struggling, maybe I didn't belong in a Computer Science program? Surely I'd be exposed as a fraud.
+Except for Discrete Math, that is. Everyone has that one class where they struggle. But even tougher than the material was the imposter syndrome I felt as a result. It was my first semester and, heck, I was just an English major. If I was already struggling, maybe I didn't belong in a Computer Science program? Surely I'd be exposed as a fraud.
 
 In the end, I managed to scrape out a hard-won B+. And boy was I relieved. I won't say it fully alleviated my imposter syndrome, but it was a good start.
 
