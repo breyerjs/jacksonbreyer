@@ -60,7 +60,7 @@ Armed with these tools, I wrote dozens of sloppy, rudimentary programs. Notably,
 
 Except it wasn't.
 
-I sent out a blizzard of internship applications, and every single one was rejected. It was a seemingly endless stream: rejection after rejection after rejection. I was even rejected from Yelp, where I currently work.
+I sent out a blizzard of internship applications, and every single one was rejected. It was a seemingly endless stream: rejection after rejection after rejection. I was even rejected from Yelp, where I work as of this writing.
 
 Around this time, a well-meaning acquaintance told me that I should give up trying to be a software engineer. It was too hard, there was too much math, and didn't I know? Software Engineers were _really_ smart.  
 
@@ -97,7 +97,7 @@ Of those, Brandeis was my top pick. There, I could take remedial undergraduate c
 
 My background actually made parts of the application very easy. Writing a personal statement? No problem. Verbal portion of the GRE? Forget about it. 
 
-After submitting the applications, I took a mid-summer trip to Boracay, a remote island in the Philippines. I ducked in from the white-sand beach to check my email and found out that Brandeis had accepted me. Despite all the surf and sun, I could only dream of Boston in winter.
+After submitting the applications, I took a mid-summer trip to Boracay, an island in the Philippines. I ducked in from the white-sand beach to check my email and found out that Brandeis had accepted me. Despite all the surf and sun, I could only dream of Boston in winter.
 
 #### First Year at Brandeis
 
@@ -163,6 +163,4 @@ Since then, I've landed at Yelp. There, I've written features that millions of p
 
 My road to software engineering was long, difficult, and felt uncertain at every step. It took a series of great mentors, lucky breaks, and a level of perseverance that brought me to my limits often.
 
-But, for all that strife and uncertainty, I can't imagine another life that would make me happier. I do interesting work with great people, and have the opportunity to touch people's lives daily.
-
-I'll be forever grateful that I took the plunge, from English major to Software Engineer.
+But, for all that strife and uncertainty, I can't imagine another life that would make me happier. I do interesting work with great people, and have the opportunity to touch people's lives daily. 
