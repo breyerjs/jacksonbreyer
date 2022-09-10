@@ -16,19 +16,19 @@ There are a lot of benefits:
 Starting with a problem asks the implicit question: "Do your solutions actually help?"
 
 - **Problems are instantly understandable.**
-Sharing the problem allows many people to quickly understand the motivation for change. It can even help you understand why you're doing what you're doing. 
+Sharing the problem helps people understand the motivation for change. It can also help you understand your own plans.
 
 - **Problems promote ownership.** 
 It's more inspiring to get problems to solve than solutions to implement.
 
 - **Problems allow for creativity.** 
-Two people can look at the same problem and see different solutions. By sharing the problem, you might get a solution you never considered.
+Two people can look at the same problem and see different solutions. By sharing the problem, you might learn of new solutions.
 
 Some examples of where this can help:
 
 - **Defining a new tech lead role:** start with what problem the tech lead will work to solve, not what duties they will do.
 
-- **Evaluating a new project** start with what problem the project will solve, not what you plan to implement.
+- **Evaluating a new project:** start with what problem the project addresses, not what you plan to implement.
 
-- **Making a process change** start with the pains of the current process, not what you want the new process to be. 
+- **Making a process change:** start with the pains of the current process, not what you want the new process to be. 
 
