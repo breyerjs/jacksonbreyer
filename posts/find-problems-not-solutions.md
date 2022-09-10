@@ -22,7 +22,7 @@ Sharing the problem helps people understand the motivation for change. It can al
 It's more inspiring to get problems to solve than solutions to implement.
 
 - **Problems allow for creativity.** 
-Two people can look at the same problem and see different solutions. By sharing the problem, you might learn of new solutions.
+Two people can look at the same question and see different answers. By sharing the problem, you might learn of new solutions.
 
 Some examples of where this can help:
 
