@@ -1,5 +1,5 @@
 ---
-title: "Find Problems, Not Solutions"
+title: "Find problems, not solutions"
 date: "2022-09-10"
 description: "TODO."
 ---
@@ -22,7 +22,7 @@ Sharing the problem allows many people to quickly understand the motivation for 
 It's more inspiring to get problems to solve than solutions to implement.
 
 - **Problems allow for creativity.** 
-Two people can look at the same problem and see different solutions. By sharing the problem, you can might get a solution you never considered.
+Two people can look at the same problem and see different solutions. By sharing the problem, you might get a solution you never considered.
 
 Some examples of where this can help:
 
