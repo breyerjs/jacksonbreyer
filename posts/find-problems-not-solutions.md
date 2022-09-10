@@ -12,17 +12,17 @@ My manager recommended this a few weeks ago in a specific context, and it was a 
 
 There are a lot of benefits:
 
+- **Problems motivate change.**
+Problems answer "why?" in a way that solutions do not. They provide a shared sense of purpose.
+
 - **Problems provide a north star.** 
-Starting with a problem asks the implicit question: "Do your solutions actually help?"
-
-- **Problems are instantly understandable.**
-Sharing the problem helps people understand the motivation for change. It can also help you understand your own plans.
-
-- **Problems promote ownership.** 
-It's more inspiring to get problems to solve than solutions to implement.
+Starting with a problem asks the implicit question: "Does your solution actually help?"
 
 - **Problems allow for creativity.** 
 Two people can look at the same question and see different answers. By sharing the problem, you might learn of new solutions.
+
+- **Problems promote ownership.** 
+It's more inspiring to get problems to solve than solutions to implement.
 
 Some examples of where this can help:
 
