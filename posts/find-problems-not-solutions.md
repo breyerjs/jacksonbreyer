@@ -4,11 +4,11 @@ date: "2022-09-10"
 description: "TODO."
 ---
 
-Software is a solutions-oriented business. It's what we do: ship solutions as quickly as we can. But one common pitfall can be starting with solutions rather than problems. 
+Software is a solutions-oriented business. It's what we do: ship solutions as quickly as we can. But one common pitfall is jumping to solutions before defining problems. 
 
-It seems obvious to say "start with the problem." But it's remarkably easy to forget when you are in the thick of solution-mongering.
+It seems obvious to say "start with the problem." But it's easy to forget when you are in the thick of solution-mongering.
 
-My manager recommended this a few weeks ago in a specific context, and it was a great reminder.
+My manager reminded me of this a few weeks ago in a specific context, and it was a great help.
 
 There are a lot of benefits:
 
