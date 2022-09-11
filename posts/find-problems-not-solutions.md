@@ -26,8 +26,8 @@ It's more inspiring to get problems to solve than solutions to implement.
 
 Some examples of where this can help:
 
-- **Defining a new tech lead role:** start with what problem the tech lead will work to solve, not what duties they will do.
-
-- **Evaluating a new project:** start with what problem the project addresses, not what you plan to implement.
+- **Defining a new role:** start with what problem the role will work to solve, not what duties it will do.
 
 - **Making a process change:** start with the pains of the current process, not what you want the new process to be. 
+
+- **Creating a new initiative:** start with what problem the initiative tries to solve, not what projects you plan to implement.
