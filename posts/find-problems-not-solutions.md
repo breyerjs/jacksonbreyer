@@ -12,8 +12,8 @@ My manager reminded me of this a few weeks ago in a specific context, and it was
 
 There are a lot of benefits:
 
-- **Problems motivate change.**
-Problems answer "why?" in a way that solutions do not. They provide a shared sense of purpose.
+- **Problems explain "why?"**
+Problems provide a shared sense of purpose in a way that solutions do not.
 
 - **Problems provide a north star.** 
 Starting with a problem asks the implicit question: "Does your solution actually help?"
@@ -31,4 +31,3 @@ Some examples of where this can help:
 - **Evaluating a new project:** start with what problem the project addresses, not what you plan to implement.
 
 - **Making a process change:** start with the pains of the current process, not what you want the new process to be. 
-
