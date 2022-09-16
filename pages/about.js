@@ -10,7 +10,7 @@ const About = (props) => {
             <Layout>
                 <Header titleText={'Jackson Breyer'} subheader={"knows some technologies"} />
                 <div className={styles.intro}>
-                    <p>I'm an Engineering Manager at Yelp—I lead the team responsible for Search Experience across Android, iOS, and Web.</p>
+                    <p>I'm an Engineering Manager at Yelp. I lead the team responsible for Search Experience across Android, iOS, and Web.</p>
 
                     <p>I haven't always worked in technology. If you're curious about my background, here's  <Link href={'words/[wordsid]'} as={'/words/from-english-major-to-software-engineer'}>a blog post</Link> I wrote.</p>
                 </div>
