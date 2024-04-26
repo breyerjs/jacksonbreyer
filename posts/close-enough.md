@@ -21,6 +21,6 @@ Most of the time, they don't matter. My audience (manager, product manager count
 
 So that's the second thing wrong with my example estimate. In addition to being impossibly precise (emphasis on "impossible"), I didn't consider how precise I actually needed to be.
 
-These days, I like to start by asking: "how _imprecise_ can I be for this estimate?" In many cases, that means to the nearest order of magnitude, or identifying if it will take days, months, or years.
+These days, I like to start by asking: "how _imprecise_ can I be for this estimate?" In many cases, that means to the nearest order of magnitude, or identifying if it will take days, weeks, or months.
 
 Following that approach, I can be far more accurate. And what's more: I can avoid the many-flavored stresses of false-precision. 
