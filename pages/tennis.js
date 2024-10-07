@@ -6,22 +6,22 @@ import styles from './tennis.module.scss';
 
 const focuses = [
     "Footwork",
-    "Cross court rally",
+    "Hit cross court",
     "Longest rally",
-    "Return winners",
+    "Return aggressively",
     "Down the line shots",
     "Aces",
-    "Net points won",
-    "Slices",
-    "Angled shots",
+    "Win at the net",
+    "Slice",
+    "Hit angled shots",
     "Serve plus one",
-    "Heavy Topspin forehands",
+    "Heavy topspin forehands",
     "Flat forehands",
     "Forehand winners",
     "Backhand winners",
-    "No errors on backhand",
-    "No errors on forehand",
-    "Topspin returns"
+    "Make no errors on your backhand",
+    "Make no errors on your forehand",
+    "Return only with topspin"
 ];
 
 const quotes = [
@@ -82,7 +82,7 @@ const About = (props) => {
         <div>
             <Layout>
                 <Header titleText={'Jackson Breyer'} />
-                <p>Your Secret Tennis Mission is...</p>
+                <p>Your secret tennis mission is...</p>
                 <h2>{getRandomItem(focuses)}</h2>
                 <div className={styles.quote}>{quote.text} —{quote.author}</div>
             </Layout>
