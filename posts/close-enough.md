@@ -13,7 +13,7 @@ There were two things wrong with that.
 
 First, people are _really bad_ at estimating, especially when the variables get complex. How can I predict that we'll discover a rare-but-urgent edge case that adds a week to the project? Or that someone will get sick?
 
-So maybe I need to be less precise. Maybe instead of "26 days", I need to give an estimate of "around a month."
+So maybe I need to be less precise. Maybe instead of "26 days," I need to give an estimate of "around a month."
 
 But what about those ~four days that we've glossed over? 
 
